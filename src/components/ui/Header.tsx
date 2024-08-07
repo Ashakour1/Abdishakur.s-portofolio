@@ -10,27 +10,27 @@ const Header = () => {
         <div className="logo">
           <img
             src="/image.png"
-            className="rounded-full w-14 border-dotted border-2 border-black"
+            className="rounded-full w-12 border-dotted border-2 border-black"
             alt=""
           />
         </div>
         <nav>
           <ul className="flex space-x-4">
-            <div className="border border-black flex items-center text-center gap-1 px-3 py-1 rounded-md">
-              <GoPerson className="text-black" />
-              <Link to="/" className=" text-black font-semibold">
+            <div className="border border-black flex items-center text-center gap-1 px-2 py-1 rounded-md">
+              <GoPerson className="text-black text-xs" />
+              <Link to="/" className=" text-black text-xs font-semibold">
                 About
               </Link>
             </div>
-            <div className="border border-black flex items-center text-center gap-1 px-3 py-1 rounded-md">
-              <GoProjectSymlink className="text-black" />
-              <Link to="/" className=" text-black font-semibold">
+            <div className="border  border-black flex items-center text-center gap-1 px-2 py-1 rounded-md ">
+              <GoProjectSymlink className="text-black text-xs" />
+              <Link to="/" className=" text-black text-xs font-semibold">
                 Projects
               </Link>
             </div>
-            <div className="border border-black flex items-center text-center gap-1 px-3 py-1 rounded-md">
-              <MdContactPhone className="text-black" />
-              <Link to="/" className=" text-black font-semibold">
+            <div className="border border-black flex items-center text-center gap-1 px-2 py-1 rounded-md">
+              <MdContactPhone className="text-black text-xs" />
+              <Link to="/" className=" text-black text-xs font-semibold">
                 Contact
               </Link>
             </div>
