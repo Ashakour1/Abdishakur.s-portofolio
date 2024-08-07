@@ -16,19 +16,19 @@ const Header = () => {
         </div>
         <nav>
           <ul className="flex space-x-4">
-            <div className="border border-black flex items-center text-center gap-1 px-2 py-1 rounded-md">
+            <div className="border  flex items-center text-center gap-1 px-2 py-1 rounded-md  hover:bg-gray-300 hover:border-none">
               <GoPerson className="text-black text-xs" />
               <Link to="/" className=" text-black text-xs font-semibold">
                 About
               </Link>
             </div>
-            <div className="border  border-black flex items-center text-center gap-1 px-2 py-1 rounded-md ">
+            <div className="border  flex items-center text-center gap-1 px-2 py-1 rounded-md  hover:bg-gray-300 hover:border-none ">
               <GoProjectSymlink className="text-black text-xs" />
               <Link to="/" className=" text-black text-xs font-semibold">
                 Projects
               </Link>
             </div>
-            <div className="border border-black flex items-center text-center gap-1 px-2 py-1 rounded-md">
+            <div className="border flex items-center text-center gap-1 px-2 py-1 rounded-md hover:bg-gray-300 hover:border-none">
               <MdContactPhone className="text-black text-xs" />
               <Link to="/" className=" text-black text-xs font-semibold">
                 Contact
