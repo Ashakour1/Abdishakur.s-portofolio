@@ -5,7 +5,7 @@ import { MdContactPhone } from "react-icons/md";
 
 const Header = () => {
   return (
-    <header className="">
+    <header>
       <div className="rounded-md flex justify-between items-center px-5 max-w-[1020px] mx-auto h-16 mt-2">
         <div className="logo">
           <img
