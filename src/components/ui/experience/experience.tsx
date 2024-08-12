@@ -1,6 +1,4 @@
-import React from "react";
 import { type Experience } from "../../../types/experiences-type";
-import { MdBusinessCenter } from "react-icons/md";
 
 type ExperienceProps = {
   experienceItem: Experience;
