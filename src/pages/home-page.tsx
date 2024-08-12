@@ -1,7 +1,5 @@
-import React from "react";
-import HeroSection from "../components/ui/hero-section";
-import Experience from "../components/ui/experience/experience";
 import Experiences from "../components/ui/experience/experiences";
+import HeroSection from "../components/ui/hero-section";
 
 const HomePage = () => {
   return (
