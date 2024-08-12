@@ -1,7 +1,5 @@
 import { Link } from "react-router-dom";
-import { MdLocationPin } from "react-icons/md";
 import AboutMe from "./about-me";
-import Experience from "./experience/experience";
 const HeroSection = () => {
   return (
     <section>
