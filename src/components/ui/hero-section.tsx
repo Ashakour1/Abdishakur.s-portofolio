@@ -1,18 +1,19 @@
 import { Link } from "react-router-dom";
 import AboutMe from "./about-me";
+import { MdBusinessCenter } from "react-icons/md";
 const HeroSection = () => {
   return (
     <section>
-      <div className="py-5 pt-10  flex justify-between border-b">
+      <div className="py-5 pt-10 lg:flex-row md:gap-2 sm:gap-2 gap-4 flex flex-col md:flex-row justify-between border-b">
         <div className="">
           <AboutMe />
           <div className="flex flex-col gap-2 ">
-            <h1 className="max-w-2xl text-3xl font-bold spacing-1">
+            <h1 className="max-w-2xl text-2xl lg:text-3xl md:text-3xl font-bold spacing-1">
               Hey! I’m{" "}
               <span className="border-blue-400 border-b-2">Abdishakour</span>{" "}
               and I’m Fullstack Developer
             </h1>
-            <p className="max-w-2xl text-base text-gray-700 flex flex-col gap-1">
+            <p className="max-w-2xl text-sm md:text-sm lg:text-base text-gray-700 flex flex-col gap-1">
               <span className="">
                 Hey there! 👋 I'm Abdishakur Mohamed Hussein, a dynamic
                 Fullstack Developer with 2 years of hands-on experience and a
@@ -34,24 +35,17 @@ const HeroSection = () => {
           </div>
         </div>
 
-        <div className="flex flex-col gap-2 items-center">
+        <div className="flex md:flex-col items-center flex-col gap-2   ">
           <img
-            className="w-56 rounded"
+            className="md:w-56 w-full rounded"
             src="/image.png"
             alt="Abdishakour Mohamed"
           />
-          <Link to="https://www.reliatrusty.com/">
-            <button className="bg-gray-100 text-sm text-gray-600 px-4 py-2 mx-8 rounded-md flex items-center">
-              <img
-                width="28"
-                height="28"
-                src="https://img.icons8.com/forma-light/24/bag-front-view.png"
-                alt="bag-front-view"
-                className="px-1"
-              />
-              SWE @<span className="text-black font-bold">Relia trusty</span>
-            </button>
-          </Link>
+          <button className="bg-gray-100 text-sm text-gray-600 md:px-4 px-10 py-2 rounded-md flex gap-1 ">
+
+            <MdBusinessCenter className="text-xl" />
+            SWE @<span className="text-black font-bold">Relia Trusty</span>
+          </button>
         </div>
       </div>
     </section>
@@ -59,3 +53,9 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
+
+{
+  /* <Link to="https://www.reliatrusty.com/">
+           
+          </Link> */
+}
