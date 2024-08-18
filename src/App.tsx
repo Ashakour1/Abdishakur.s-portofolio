@@ -9,6 +9,14 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route
+            path="*"
+            element={
+              <div>
+                <h1>404 Not Found</h1>
+              </div>
+            }
+          />
         </Routes>
       </Router>
     </>
