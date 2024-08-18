@@ -1,8 +1,6 @@
-import { Link } from "react-router-dom";
-import { GoPerson } from "react-icons/go";
-import { GoProjectSymlink } from "react-icons/go";
-import { MdContactPhone } from "react-icons/md";
 import { BiEnvelope, BiSearch } from "react-icons/bi";
+import { GoPerson } from "react-icons/go";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (

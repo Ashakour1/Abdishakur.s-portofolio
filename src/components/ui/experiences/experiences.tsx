@@ -1,7 +1,6 @@
-import React from "react";
-import Experience from "./experience";
-import { ExperienceData } from "../../../data/experience-data";
 import { MdBusinessCenter } from "react-icons/md";
+import { ExperienceData } from "../../../data/experience-data";
+import Experience from "./experience";
 
 const Experiences = () => {
   return (
