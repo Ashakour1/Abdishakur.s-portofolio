@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { GoPerson } from "react-icons/go";
 import { GoProjectSymlink } from "react-icons/go";
 import { MdContactPhone } from "react-icons/md";
+import { BiEnvelope, BiSearch } from "react-icons/bi";
 
 const Header = () => {
   return (
@@ -23,13 +24,13 @@ const Header = () => {
               </Link>
             </div>
             <div className="border  flex items-center text-center gap-1 px-2 py-1 rounded-md  hover:bg-gray-300 hover:border-none ">
-              <GoProjectSymlink className="text-black text-xs" />
+              <BiSearch className="text-black text-xs" />
               <Link to="/" className=" text-black text-xs font-semibold">
                 Projects
               </Link>
             </div>
             <div className="border flex items-center text-center gap-1 px-2 py-1 rounded-md hover:bg-gray-300 hover:border-none">
-              <MdContactPhone className="text-black text-xs" />
+              <BiEnvelope className="text-black text-xs" />
               <Link to="/" className=" text-black text-xs font-semibold">
                 Contact
               </Link>
