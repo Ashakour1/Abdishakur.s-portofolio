@@ -1,5 +1,5 @@
-import { BsFacebook, BsGithub, BsLinkedin, BsTwitter } from "react-icons/bs";
 import { Link } from "react-router-dom";
+import Socials from "./Socials";
 export const NavbarRoutes = [
   {
     name: "Home",
@@ -53,20 +53,7 @@ const Footer = () => {
           <div>
             <p className="text-sm text-gray-500">&copy; Abdishakour Mohamed.</p>
           </div>
-          <div className="flex gap-2">
-            <Link to="https://github.com/Ashakour1">
-              <BsGithub className="text-gray-500" />
-            </Link>
-            <Link to="https://x.com/Ashakour17">
-              <BsTwitter className="text-gray-500" />
-            </Link>
-            <Link to="https://www.facebook.com/Shakramohamad6/">
-              <BsFacebook className="text-gray-500" />
-            </Link>
-            <Link to="https://www.linkedin.com/in/a-shakour-mohammed-90836725a/">
-              <BsLinkedin className="text-gray-500" />
-            </Link>
-          </div>
+          <Socials />
         </div>
       </div>
     </footer>
