@@ -7,23 +7,28 @@ const Header = () => {
     <header>
       <div className="rounded-md flex justify-between items-center px-5 max-w-[1020px] mx-auto h-16 mt-2">
         <div className="logo">
-          <img
-            src="/image.png"
-            className="rounded-full w-12 border-dotted border-2 border-black"
-            alt=""
-          />
+          <Link to="/">
+            <img
+              src="/image.png"
+              className="rounded-full w-12 border-dotted border-2 border-black"
+              alt=""
+            />
+          </Link>
         </div>
         <nav>
           <ul className="flex space-x-4">
             <div className="border  flex items-center text-center gap-1 px-2 py-1 rounded-md  hover:bg-gray-300 hover:border-none">
               <GoPerson className="text-black text-xs" />
-              <Link to="/about" className=" text-black text-xs font-semibold">
+              <Link to="/" className=" text-black text-xs font-semibold">
                 About
               </Link>
             </div>
             <div className="border  flex items-center text-center gap-1 px-2 py-1 rounded-md  hover:bg-gray-300 hover:border-none ">
               <BiSearch className="text-black text-xs" />
-              <Link to="/projects" className=" text-black text-xs font-semibold">
+              <Link
+                to="/projects"
+                className=" text-black text-xs font-semibold"
+              >
                 Projects
               </Link>
             </div>
