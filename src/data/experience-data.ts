@@ -17,7 +17,7 @@ export const ExperienceData: Experience[] = [
     position: "Software Developer",
     name: "Relia Trusty",
     logo: "/logo-relia-trusty.jpg",
-    time: "Fep 2024 - Present",
+    time: "Fep 2024 - July 2024",
   },
   {
     position: "Chief Dev Officer",
