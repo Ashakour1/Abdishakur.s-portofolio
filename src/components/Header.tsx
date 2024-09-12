@@ -17,19 +17,19 @@ const Header = () => {
           <ul className="flex space-x-4">
             <div className="border  flex items-center text-center gap-1 px-2 py-1 rounded-md  hover:bg-gray-300 hover:border-none">
               <GoPerson className="text-black text-xs" />
-              <Link to="/" className=" text-black text-xs font-semibold">
+              <Link to="/about" className=" text-black text-xs font-semibold">
                 About
               </Link>
             </div>
             <div className="border  flex items-center text-center gap-1 px-2 py-1 rounded-md  hover:bg-gray-300 hover:border-none ">
               <BiSearch className="text-black text-xs" />
-              <Link to="/" className=" text-black text-xs font-semibold">
+              <Link to="/projects" className=" text-black text-xs font-semibold">
                 Projects
               </Link>
             </div>
             <div className="border flex items-center text-center gap-1 px-2 py-1 rounded-md hover:bg-gray-300 hover:border-none">
               <BiEnvelope className="text-black text-xs" />
-              <Link to="/" className=" text-black text-xs font-semibold">
+              <Link to="/contact" className=" text-black text-xs font-semibold">
                 Contact
               </Link>
             </div>
