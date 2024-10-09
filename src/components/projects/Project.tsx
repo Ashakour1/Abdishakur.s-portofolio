@@ -2,11 +2,55 @@ const Project = () => {
   return (
     <div className="grid md:grid-cols-3 gap-4 grid-cols-1  ">
       <div className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-sm h-full">
+        <img alt="" src="/landing5.png" className="h-40 w-full object-cover" />
+
+        <div className="p-4 sm:p-2">
+          <a href="#">
+            <h3 className="text-lg font-medium text-gray-900">Aslos</h3>
+          </a>
+
+          <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
+            Aslos is a brand dedicated to integrating fitness discipline and
+            mindset into every aspect of life through high-quality activewear.
+            This project is being developed for a client who has entrusted us to
+            build a platform that aligns with their vision.
+          </p>
+
+          <div className="mt-4 flex flex-wrap gap-1">
+            <span className="whitespace-nowrap rounded-full bg-cyan-400 px-2.5 py-0.5 text-xs text-black">
+              Next-js
+            </span>
+            <span className="whitespace-nowrap rounded-full bg-green-500 px-2.5 py-0.5 text-xs text-white">
+              MongoDb
+            </span>
+            <span className="whitespace-nowrap rounded-full bg-green-300 px-2.5 py-0.5 text-xs text-white">
+              Node
+            </span>
+            <span className="whitespace-nowrap rounded-full bg-blue-950 px-2.5 py-0.5 text-xs text-white">
+              Prisma
+            </span>
+          </div>
+
+          <a
+            href="https://github.com/Ashakour1/Aslos.so"
+            className="group my-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600"
+          >
+            Source Code
+            <span
+              aria-hidden="true"
+              className="block transition-all group-hover:ms-0.5 rtl:rotate-180"
+            >
+              &rarr;
+            </span>
+          </a>
+        </div>
+      </div>
+      <div className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-sm h-full">
         <img alt="" src="/landing.png" className="h-40 w-full object-cover" />
 
         <div className="p-2 sm:p-2">
           <a href="#">
-            <h3 className="text-lg font-medium text-gray-900">Life Cord</h3>
+            <h3 className="text-lg font-medium text-gray-900">Badbaadiye</h3>
           </a>
 
           <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
@@ -224,50 +268,7 @@ const Project = () => {
           </a>
         </div>
       </div>
-      <div className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-sm h-full">
-        <img alt="" src="/landing5.png" className="h-40 w-full object-cover" />
 
-        <div className="p-4 sm:p-2">
-          <a href="#">
-            <h3 className="text-lg font-medium text-gray-900">Aslos</h3>
-          </a>
-
-          <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
-            Aslos is a brand dedicated to integrating fitness discipline and
-            mindset into every aspect of life through high-quality activewear.
-            This project is being developed for a client who has entrusted us to
-            build a platform that aligns with their vision.
-          </p>
-
-          <div className="mt-4 flex flex-wrap gap-1">
-            <span className="whitespace-nowrap rounded-full bg-cyan-400 px-2.5 py-0.5 text-xs text-black">
-              Next-js
-            </span>
-            <span className="whitespace-nowrap rounded-full bg-green-500 px-2.5 py-0.5 text-xs text-white">
-              MongoDb
-            </span>
-            <span className="whitespace-nowrap rounded-full bg-green-300 px-2.5 py-0.5 text-xs text-white">
-              Node
-            </span>
-            <span className="whitespace-nowrap rounded-full bg-blue-950 px-2.5 py-0.5 text-xs text-white">
-              Prisma
-            </span>
-          </div>
-
-          <a
-            href="https://github.com/Ashakour1/Aslos.so"
-            className="group my-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600"
-          >
-            Source Code
-            <span
-              aria-hidden="true"
-              className="block transition-all group-hover:ms-0.5 rtl:rotate-180"
-            >
-              &rarr;
-            </span>
-          </a>
-        </div>
-      </div>
       <div className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-sm h-full">
         <img alt="" src="/landing9.png" className="h-40 w-full object-cover" />
 
