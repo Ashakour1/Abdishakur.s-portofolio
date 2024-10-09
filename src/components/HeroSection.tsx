@@ -10,14 +10,14 @@ const HeroSection = () => {
             <h1 className="max-w-2xl text-2xl lg:text-3xl md:text-3xl font-bold spacing-1">
               Hey! I’m{" "}
               <span className="border-blue-400 border-b-2">Abdishakour</span>{" "}
-              and I’m Fullstack Developer
+              and I’m Software Developer
             </h1>
             <p className="max-w-2xl text-sm md:text-sm lg:text-base text-gray-700 flex flex-col gap-1">
               <span className="">
-                Hey there! 👋 I'm Abdishakur Mohamed Hussein, a dynamic
-                Fullstack Developer with 2 years of hands-on experience and a
-                third-year Computer Science student at Jamhuuriyo University of
-                Science & Technology.
+                Hey there! 👋 I'm Abdishakur Mohamed Hussein, a dynamic Software
+                Developer with 2.5 years of hands-on experience and a third-year
+                Computer Science student at Jamhuuriyo University of Science &
+                Technology.
               </span>
               <span>
                 I’m passionate about innovation and creativity, always exploring
