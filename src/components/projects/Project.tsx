@@ -46,36 +46,41 @@ const Project = () => {
         </div>
       </div>
       <div className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-sm h-full">
-        <img alt="" src="/landing.png" className="h-40 w-full object-cover" />
+        <img alt="" src="/landing4.png" className="h-40 w-full object-cover" />
 
-        <div className="p-2 sm:p-2">
+        <div className="p-4 sm:p-2">
           <a href="#">
-            <h3 className="text-lg font-medium text-gray-900">Badbaadiye</h3>
+            <h3 className="text-lg font-medium text-gray-900">
+              Peetes Auto Sales
+            </h3>
           </a>
 
           <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
-            Welcome to LifeCord, where compassion finds its pathway through the
-            simple act of blood donation. Our website serves as a lifeline,
-            effortlessly linking generous donors with individuals in need. Be…
+            Peetes Auto Sales is a web application that allows users to easily
+            browse and purchase vehicles online. The app is designed to help
+            users find the perfect vehicle for their needs and budget. I worked
+            on the client side of this project.ct vehicle for their needs and
+            budget.
           </p>
 
           <div className="mt-4 flex flex-wrap gap-1">
             <span className="whitespace-nowrap rounded-full bg-cyan-400 px-2.5 py-0.5 text-xs text-black">
-              React
+              Next-js
             </span>
-            <span className="whitespace-nowrap rounded-full bg-purple-100 px-2.5 py-0.5 text-xs text-purple-600">
-              PostgreSQL
+            <span className="whitespace-nowrap rounded-full bg-green-500 px-2.5 py-0.5 text-xs text-white">
+              MongoDb
             </span>
-            <span className="whitespace-nowrap rounded-full bg-green-300 px-2.5 py-0.5 text-xs text-white">
-              Node
+            <span className="whitespace-nowrap rounded-full bg-red-300 px-2.5 py-0.5 text-xs text-white">
+              Cloudinary
             </span>
+
             <span className="whitespace-nowrap rounded-full bg-blue-950 px-2.5 py-0.5 text-xs text-white">
               Prisma
             </span>
           </div>
 
           <a
-            href="https://life-cord-abdi.vercel.app/"
+            href="https://www.petescheapjeeps.com/"
             className="group my-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600"
           >
             Live Preview
@@ -89,41 +94,42 @@ const Project = () => {
         </div>
       </div>
       <div className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-sm h-full">
-        <img alt="" src="/landing2.png" className="h-40 w-full object-cover" />
+        <img alt="" src="/uniso.png" className="h-40 w-full object-cover" />
 
         <div className="p-4 sm:p-2">
           <a href="#">
             <h3 className="text-lg font-medium text-gray-900">
-              Eventify Web App
+              Uniso Hospital
             </h3>
           </a>
 
           <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
-            Eventify offers a comprehensive solution for event planning. Create
-            events, manage attendees, and handle ticketing all in one place.
-            With real-time updates and user authentication, organizing events
-            has never been easier.
+            Uniso Hospital is a web application that allows users to easily book
+            medical appointments online. The app is designed to help users find
+            the perfect doctor for their needs and schedule an appointment with
+            just a few clicks.
           </p>
 
           <div className="mt-4 flex flex-wrap gap-1">
             <span className="whitespace-nowrap rounded-full bg-cyan-400 px-2.5 py-0.5 text-xs text-black">
-              React
+              Next
             </span>
-            <span className="whitespace-nowrap rounded-full bg-purple-100 px-2.5 py-0.5 text-xs text-purple-600">
-              PostgreSQL
+            <span className="whitespace-nowrap rounded-full bg-green-500 px-2.5 py-0.5 text-xs text-white">
+              MongoDb
             </span>
-            <span className="whitespace-nowrap rounded-full bg-green-300 px-2.5 py-0.5 text-xs text-white">
-              Node
+            <span className="whitespace-nowrap rounded-full  bg-blue-950 px-2.5 py-0.5 text-xs text-white">
+              Strapi
             </span>
-            <span className="whitespace-nowrap rounded-full bg-blue-950 px-2.5 py-0.5 text-xs text-white">
-              Prisma
+            <span className="whitespace-nowrap rounded-full bg-red-300 px-2.5 py-0.5 text-xs text-white">
+              Cloudinary
             </span>
           </div>
+
           <a
-            href="https://eventify-abdi.vercel.app/"
+            href="https://www.somatlas.dev/"
             className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600"
           >
-            Live Preview
+            Source Code
             <span
               aria-hidden="true"
               className="block transition-all group-hover:ms-0.5 rtl:rotate-180"
@@ -177,12 +183,15 @@ const Project = () => {
           </a>
         </div>
       </div>
+
       <div className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-sm h-full">
         <img alt="" src="/landing7.png" className="h-40 w-full object-cover" />
 
         <div className="p-4 sm:p-2">
           <a href="#">
-            <h3 className="text-lg font-medium text-gray-900">Jutsa System</h3>
+            <h3 className="text-lg font-medium text-gray-900">
+              JUTSA Management System
+            </h3>
           </a>
 
           <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
@@ -221,42 +230,80 @@ const Project = () => {
         </div>
       </div>
       <div className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-sm h-full">
-        <img alt="" src="/landing4.png" className="h-40 w-full object-cover" />
+        <img alt="" src="/landing.png" className="h-40 w-full object-cover" />
 
-        <div className="p-4 sm:p-2">
+        <div className="p-2 sm:p-2">
           <a href="#">
-            <h3 className="text-lg font-medium text-gray-900">
-              Peetes Auto Sales
-            </h3>
+            <h3 className="text-lg font-medium text-gray-900">Badbaadiye</h3>
           </a>
 
           <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
-            Peetes Auto Sales is a web application that allows users to easily
-            browse and purchase vehicles online. The app is designed to help
-            users find the perfect vehicle for their needs and budget. I worked
-            on the client side of this project.ct vehicle for their needs and
-            budget.
+            Welcome to LifeCord, where compassion finds its pathway through the
+            simple act of blood donation. Our website serves as a lifeline,
+            effortlessly linking generous donors with individuals in need. Be…
           </p>
 
           <div className="mt-4 flex flex-wrap gap-1">
             <span className="whitespace-nowrap rounded-full bg-cyan-400 px-2.5 py-0.5 text-xs text-black">
-              Next-js
+              React
             </span>
-            <span className="whitespace-nowrap rounded-full bg-green-500 px-2.5 py-0.5 text-xs text-white">
-              MongoDb
+            <span className="whitespace-nowrap rounded-full bg-purple-100 px-2.5 py-0.5 text-xs text-purple-600">
+              PostgreSQL
             </span>
-            <span className="whitespace-nowrap rounded-full bg-red-300 px-2.5 py-0.5 text-xs text-white">
-              Cloudinary
+            <span className="whitespace-nowrap rounded-full bg-green-300 px-2.5 py-0.5 text-xs text-white">
+              Node
             </span>
-
             <span className="whitespace-nowrap rounded-full bg-blue-950 px-2.5 py-0.5 text-xs text-white">
               Prisma
             </span>
           </div>
 
           <a
-            href="https://www.petescheapjeeps.com/"
+            href="https://life-cord-abdi.vercel.app/"
             className="group my-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600"
+          >
+            Live Preview
+            <span
+              aria-hidden="true"
+              className="block transition-all group-hover:ms-0.5 rtl:rotate-180"
+            >
+              &rarr;
+            </span>
+          </a>
+        </div>
+      </div>
+      <div className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-sm h-full">
+        <img alt="" src="/landing2.png" className="h-40 w-full object-cover" />
+
+        <div className="p-4 sm:p-2">
+          <a href="#">
+            <h3 className="text-lg font-medium text-gray-900">Eventify</h3>
+          </a>
+
+          <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
+            Eventify offers a comprehensive solution for event planning. Create
+            events, manage attendees, and handle ticketing all in one place.
+            With real-time updates and user authentication, organizing events
+            has never been easier.
+          </p>
+
+          <div className="mt-4 flex flex-wrap gap-1">
+            <span className="whitespace-nowrap rounded-full bg-cyan-400 px-2.5 py-0.5 text-xs text-black">
+              React
+            </span>
+            <span className="whitespace-nowrap rounded-full bg-purple-100 px-2.5 py-0.5 text-xs text-purple-600">
+              PostgreSQL
+            </span>
+            <span className="whitespace-nowrap rounded-full bg-green-300 px-2.5 py-0.5 text-xs text-white">
+              Node
+            </span>
+            <span className="whitespace-nowrap rounded-full bg-blue-950 px-2.5 py-0.5 text-xs text-white">
+              Prisma
+            </span>
+          </div>
+          <a
+            href="https://eventify-abdi.vercel.app/"
+            className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600"
           >
             Live Preview
             <span
