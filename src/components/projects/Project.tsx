@@ -21,10 +21,10 @@ const Project = () => {
               Next-js
             </span>
             <span className="whitespace-nowrap rounded-full bg-green-500 px-2.5 py-0.5 text-xs text-white">
-              MongoDb
+              PostgreSQL
             </span>
-            <span className="whitespace-nowrap rounded-full bg-green-300 px-2.5 py-0.5 text-xs text-white">
-              Node
+            <span className="whitespace-nowrap rounded-full bg-green-300 px-2.5 py-0.5 text-xs text-black">
+              Nest-js
             </span>
             <span className="whitespace-nowrap rounded-full bg-blue-950 px-2.5 py-0.5 text-xs text-white">
               Prisma
@@ -68,7 +68,7 @@ const Project = () => {
               Next-js
             </span>
             <span className="whitespace-nowrap rounded-full bg-green-500 px-2.5 py-0.5 text-xs text-white">
-              MongoDb
+              PostgreSQL
             </span>
             <span className="whitespace-nowrap rounded-full bg-red-300 px-2.5 py-0.5 text-xs text-white">
               Cloudinary
@@ -112,10 +112,10 @@ const Project = () => {
 
           <div className="mt-4 flex flex-wrap gap-1">
             <span className="whitespace-nowrap rounded-full bg-cyan-400 px-2.5 py-0.5 text-xs text-black">
-              Next
+              Next-js
             </span>
             <span className="whitespace-nowrap rounded-full bg-green-500 px-2.5 py-0.5 text-xs text-white">
-              MongoDb
+              PostgreSQL
             </span>
             <span className="whitespace-nowrap rounded-full  bg-blue-950 px-2.5 py-0.5 text-xs text-white">
               Strapi
@@ -159,9 +159,9 @@ const Project = () => {
               React
             </span>
             <span className="whitespace-nowrap rounded-full bg-green-500 px-2.5 py-0.5 text-xs text-white">
-              MongoDb
+              PostgreSQL
             </span>
-            <span className="whitespace-nowrap rounded-full bg-green-300 px-2.5 py-0.5 text-xs text-white">
+            <span className="whitespace-nowrap rounded-full bg-green-300 px-2.5 py-0.5 text-xs text-black">
               Node
             </span>
             <span className="whitespace-nowrap rounded-full bg-blue-950 px-2.5 py-0.5 text-xs text-white">
@@ -207,7 +207,7 @@ const Project = () => {
             <span className="whitespace-nowrap rounded-full bg-green-500 px-2.5 py-0.5 text-xs text-white">
               MongoDb
             </span>
-            <span className="whitespace-nowrap rounded-full bg-green-300 px-2.5 py-0.5 text-xs text-white">
+            <span className="whitespace-nowrap rounded-full bg-green-300 px-2.5 py-0.5 text-xs text-black">
               Node
             </span>
             <span className="whitespace-nowrap rounded-full bg-blue-950 px-2.5 py-0.5 text-xs text-white">
@@ -245,13 +245,13 @@ const Project = () => {
 
           <div className="mt-4 flex flex-wrap gap-1">
             <span className="whitespace-nowrap rounded-full bg-cyan-400 px-2.5 py-0.5 text-xs text-black">
-              React
+              Next-js
             </span>
             <span className="whitespace-nowrap rounded-full bg-purple-100 px-2.5 py-0.5 text-xs text-purple-600">
               PostgreSQL
             </span>
-            <span className="whitespace-nowrap rounded-full bg-green-300 px-2.5 py-0.5 text-xs text-white">
-              Node
+            <span className="whitespace-nowrap rounded-full bg-green-300 px-2.5 py-0.5 text-xs text-black">
+              Nest-js
             </span>
             <span className="whitespace-nowrap rounded-full bg-blue-950 px-2.5 py-0.5 text-xs text-white">
               Prisma
@@ -294,7 +294,7 @@ const Project = () => {
             <span className="whitespace-nowrap rounded-full bg-purple-100 px-2.5 py-0.5 text-xs text-purple-600">
               PostgreSQL
             </span>
-            <span className="whitespace-nowrap rounded-full bg-green-300 px-2.5 py-0.5 text-xs text-white">
+            <span className="whitespace-nowrap rounded-full bg-green-300 px-2.5 py-0.5 text-xs text-black">
               Node
             </span>
             <span className="whitespace-nowrap rounded-full bg-blue-950 px-2.5 py-0.5 text-xs text-white">
@@ -340,7 +340,7 @@ const Project = () => {
             <span className="whitespace-nowrap rounded-full bg-green-500 px-2.5 py-0.5 text-xs text-white">
               PostgreSQL
             </span>
-            <span className="whitespace-nowrap rounded-full bg-green-300 px-2.5 py-0.5 text-xs text-white">
+            <span className="whitespace-nowrap rounded-full bg-green-300 px-2.5 py-0.5 text-xs text-black">
               Java
             </span>
             <span className="whitespace-nowrap rounded-full bg-blue-950 px-2.5 py-0.5 text-xs text-white">
