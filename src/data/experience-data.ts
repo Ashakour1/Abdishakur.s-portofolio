@@ -9,7 +9,7 @@ export const ExperienceData: Experience[] = [
   },
   {
     position: "Founder & Developer",
-    name: "somAtlasApi",
+    name: "SomAtlasAPI",
     logo: "/logo-somatlas.jpg",
     time: "Dec 2023 - Present",
   },
