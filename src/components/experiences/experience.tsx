@@ -29,7 +29,7 @@ const Experience = ({ experienceItem }: ExperienceProps) => {
             />
             <div className="flex flex-col">
               <h1 className="text-sm font-bold">{experienceItem.position}</h1>
-              <p className="text-xs text-gray-500">{experienceItem.name}</p>
+              <p className="text-xs text-gray-500 max-w-56">{experienceItem.name}</p>
             </div>
           </div>
           <p className="text-xs text-gray-500 flex items-center gap-1 ">
