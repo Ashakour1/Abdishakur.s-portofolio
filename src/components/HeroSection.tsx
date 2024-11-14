@@ -52,8 +52,3 @@ const HeroSection = () => {
 
 export default HeroSection;
 
-{
-  /* <Link to="https://www.reliatrusty.com/">
-           
-          </Link> */
-}
