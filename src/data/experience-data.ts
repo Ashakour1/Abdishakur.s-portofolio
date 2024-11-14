@@ -32,8 +32,8 @@ export const ExperienceData: Experience[] = [
     images: ["/landing5.png", "/uniso.png"],
   },
   {
-    position: "Chief Dev Officer",
-    name: "Jamhuriya Un Student - Jutsa",
+    position: "Chief Development Officer",
+    name: "Jamhuriya University Technology Students Association",
     logo: "/logo-jutsa.jpg",
     time: "March 2024 - Present",
     description:
@@ -41,5 +41,4 @@ export const ExperienceData: Experience[] = [
     technologies: ["React", "Node", "MongoDB", "Express"],
     images: ["/client.png", "/about-client.png"],
   },
-  
 ];
