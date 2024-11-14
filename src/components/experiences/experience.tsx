@@ -19,7 +19,7 @@ const Experience = ({ experienceItem }: ExperienceProps) => {
 
   return (
     <section>
-      <div className="flex flex-col border border-gray-400 px-3 py-2  rounded-md">
+      <div className="flex flex-col border  px-3 py-2  rounded-md">
         <div className="flex flex-col  space-y-1">
           <div className="flex items-center gap-1 py-1">
             <img
