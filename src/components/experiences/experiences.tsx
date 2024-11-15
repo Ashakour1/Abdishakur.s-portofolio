@@ -4,7 +4,7 @@ import Experience from "./experience";
 
 const Experiences = () => {
   return (
-    <section>
+    <section className="w-full lex flex-col">
       <div className="flex items-center text-center py-5 gap-1 text-gray-600 ">
         <MdBusinessCenter className="text-xl" />
         <h1 className="font-bold text-sm">Work Experience</h1>
