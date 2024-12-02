@@ -34,7 +34,7 @@ const HeroSection = () => {
           </div>
         </div>
 
-        <div className="flex md:flex-col items-center flex-col gap-2   ">
+        <div className="flex md:flex-col items-center flex-col gap-2">
           <img
             className="md:w-56 w-full rounded"
             src="/image.png"
