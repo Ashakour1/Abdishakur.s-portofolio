@@ -4,11 +4,11 @@ export const ProjectsData: Project[] = [
   {
     name: "Aslos",
     description:
-      "Matso Organization is a non-profit organization that aims to help the less privileged in the society.",
-    logo: "/logo-matso.jpg",
+      "Aslos is a brand dedicated to integrating fitness discipline and mindset into every aspect of life.",
+    logo: "/logo-2.png",
     technologies: ["React", "Node", "MongoDB", "Express"],
-    github: "https://spotlight.tailwindui.com/projects",
-    demo: "https://spotlight.tailwindui.com/projects",
+    github: "",
+    demo: "",
   },
   {
     name: "SomAtlasAPI",
@@ -16,8 +16,8 @@ export const ProjectsData: Project[] = [
       "I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of",
     logo: "/logo-somatlas.jpg",
     technologies: ["React", "Node", "MongoDB", "Express"],
-    github: "https://spotlight.tailwindui.com/projects",
-    demo: "https://spotlight.tailwindui.com/projects",
+    github: "",
+    demo: "",
   },
   {
     name: "Relia Trusty",
@@ -25,8 +25,8 @@ export const ProjectsData: Project[] = [
       "I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of",
     logo: "/logo-relia-trusty.jpg",
     technologies: ["System Analysis and Design"],
-    github: "https://spotlight.tailwindui.com/projects",
-    demo: "https://spotlight.tailwindui.com/projects",
+    github: "",
+    demo: "",
   },
   {
     name: "Jamhuriya Un Student - Jutsa",
@@ -34,7 +34,7 @@ export const ProjectsData: Project[] = [
       "I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of",
     logo: "/logo-jutsa.jpg",
     technologies: ["React", "Node", "MongoDB", "Express"],
-    github: "https://spotlight.tailwindui.com/projects",
-    demo: "https://spotlight.tailwindui.com/projects",
+    github: "",
+    demo: "",
   },
 ];
