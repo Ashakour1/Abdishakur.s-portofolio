@@ -36,8 +36,8 @@ const HeroSection = () => {
 
         <div className="flex md:flex-col items-center flex-col gap-2">
           <img
-            className="md:w-56 w-full rounded"
-            src="/image.png"
+            className="md:w-64 w-full rounded"
+            src="/hero.JPG"
             alt="Abdishakour Mohamed"
           />
           <button className="bg-gray-100 text-sm text-gray-600 md:px-4 px-10 py-2 rounded-md flex gap-1 ">
@@ -51,4 +51,3 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
-
