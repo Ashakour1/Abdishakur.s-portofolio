@@ -1,8 +1,7 @@
-import Footer from "../components/Footer";
+import Educations from "../components/educations/educations";
 import Experiences from "../components/experiences/experiences";
 import HeroSection from "../components/HeroSection";
 import Projects from "../components/projects/ProjectsSection";
-import Educations from "../components/educations/educations";
 
 const HomePage = () => {
   return (
@@ -13,7 +12,6 @@ const HomePage = () => {
         <Educations />
       </div>
       <Projects />
-      <Footer />
     </div>
   );
 };
