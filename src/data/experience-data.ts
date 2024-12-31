@@ -8,7 +8,7 @@ export const ExperienceData: Experience[] = [
     time: "Fep 2022 - July 2024",
     description:
       "As a full-stack developer at Matso Organization, you'll design and develop high-quality software applications, collaborate with a skilled team, and stay updated with the latest industry trends. Your role involves writing efficient code, debugging issues, and delivering innovative solutions to maintain Matso Organization's leadership in the tech industry.",
-    technologies: ["React", "Node", "MongoDB", "Express"],
+    technologies: ["Mysql", "Php", "Javascript", "React", "Prisma", "More"],
     images: [],
   },
   {
@@ -18,7 +18,14 @@ export const ExperienceData: Experience[] = [
     time: "Dec 2023 - Present",
     description:
       "As the founder and developer of SomAtlasAPI, I developed a RESTful API to provide data on Somalia's regions, districts, and sub-districts. I designed the API to be user-friendly, secure, and scalable, ensuring that users can access accurate information with ease.",
-    technologies: ["React", "Node", "MongoDB", "Express"],
+    technologies: [
+      "Svelte",
+      "Node.js",
+      "Prisma",
+      "supabase",
+      "Postgresql",
+      "More",
+    ],
     images: ["/landing3.png", "/docs.png"],
   },
   {
@@ -28,7 +35,7 @@ export const ExperienceData: Experience[] = [
     time: "Fep 2024 - July 2024",
     description:
       "As a software developer at Relia Trusty, you'll design and develop high-quality software applications, collaborate with a skilled team, and stay updated with the latest industry trends. Your role involves writing efficient code, debugging issues, and delivering innovative solutions to maintain Relia Trusty's leadership in the tech industry.",
-    technologies: ["System Analysis and Design"],
+    technologies: ["SAD", "Node.js", "React", "MongoDb", "Prisma", "More"],
     images: ["/landing5.png", "/uniso.png"],
   },
   {
@@ -38,7 +45,7 @@ export const ExperienceData: Experience[] = [
     time: "March 2024 - Present",
     description:
       "As the CDO of the Jamhuriya University Technology Students Association, I spearheaded digital advancements by developing a system to manage student data and events, creating the itDay event website to enhance participation, and implementing a secure voting system for efficient elections.",
-    technologies: ["React", "Node", "MongoDB", "Express"],
-    images: ["/client.png", "/about-client.png"],
+    technologies: ["React", "Node.js", "Next.js", "MongoDb", "Prisma", "More"],
+    images: ["/jutsa.png", "/jutsa-mn.png"],
   },
 ];
