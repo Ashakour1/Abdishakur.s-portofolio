@@ -5,7 +5,7 @@ import Education from "./education";
 const Educations = () => {
   return (
     <section className="w-full  h-full">
-      <div className="flex items-center text-center py-5 gap-1 text-gray-600 ">
+      <div className="flex items-center text-center py-5 pt-10 gap-1 text-gray-600 ">
         <FaGraduationCap className="text-xl" />
         <h1 className="font-bold text-sm">Education</h1>
       </div>
