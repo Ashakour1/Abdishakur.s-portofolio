@@ -2,6 +2,7 @@ import { AiFillProject } from "react-icons/ai";
 // import Project from "./Project";
 // import { ProjectsData } from "../../data/projects-data";
 import { HoverEffect } from "../ui/card-hover-effect";
+import { Link } from "react-router-dom";
 
 const Projects = () => {
   const items = [
@@ -60,10 +61,11 @@ const Projects = () => {
       </div>
       <HoverEffect items={items} className="gap-6" />
       <div className="flex items-center justify-center text-center py-10 gap-1 text-gray-600">
-        <button className="bg-gray-100 text-sm text-gray-600 md:px-4 px-10 py-2 rounded-md flex gap-1 ">
-         
-          <span className="text-black font-bold">View More</span>
-        </button>
+        <Link to="/projects" className="text-sm font-semibold">
+          <button className="bg-gray-100 text-sm text-gray-600 md:px-4 px-10 py-2 rounded-md flex gap-1 ">
+            <span className="text-black font-bold">View More</span>
+          </button>
+        </Link>
       </div>
     </div>
   );
