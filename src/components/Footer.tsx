@@ -29,7 +29,7 @@ export const NavbarRoutes = [
 ];
 const Footer = () => {
   return (
-    <footer>
+    <footer className="max-w-[1020px] mx-auto px-5">
       <div className="py-20 flex flex-col">
         <div className="flex flex-col items-center text-center border-b ">
           <div className="flex gap-1 items-center ">
