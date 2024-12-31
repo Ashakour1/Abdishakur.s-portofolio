@@ -55,7 +55,7 @@ const Projects = () => {
   ];
   return (
     <div>
-      <div className="flex items-center text-center py-5 gap-1 text-gray-600">
+      <div className="flex items-center text-center py-5 pt-10 gap-1 text-gray-600">
         <AiFillProject className="text-xl" />
         <h1 className="font-bold text-sm">Projects</h1>
       </div>
