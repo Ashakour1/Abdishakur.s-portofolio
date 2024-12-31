@@ -6,14 +6,6 @@ import { HoverEffect } from "../components/ui/card-hover-effect";
 const ProjectsScreen = () => {
   const items = [
     {
-      title: "Aslos",
-      description:
-        "A ecommerce system that allows you to sell your products online.",
-      link: "https://aslos.so",
-      image: "/landing5.png",
-      techStacks: ["Next.js", "MongoDb", "Stripe", "TypeScript"],
-    },
-    {
       title: "Eventify",
       description: "A platform for managing your events and tickets.",
       link: "https://eventify-abdi.vercel.app/",
@@ -28,13 +20,7 @@ const ProjectsScreen = () => {
       image: "/landing3.png",
       techStacks: ["Svelte", "MongoDb", "Node.js", "supabase"],
     },
-    {
-      title: "Jamhuuriya (Jutsa)",
-      description: "JUTSA Management System enables efficient work management.",
-      link: "https://itday.jtech.so/",
-      image: "/jutsa.png",
-      techStacks: ["React", "MongoDb", "Node.js", ""],
-    },
+
     {
       title: "Asal Advert",
       description:
@@ -52,13 +38,13 @@ const ProjectsScreen = () => {
       techStacks: ["React", "MongoDb", "Node.js", "supabase"],
     },
     {
-      title: "Hospital UNISO",
-      description:
-        "A website that allows you to book an appointment with a doctor.",
-      link: "https://www.somatlas.dev/",
-      image: "/uniso-hos.png",
-      techStacks: ["React", "MongoDb", "Node.js", "supabase"],
+      title: "Jamhuuriya (Jutsa)",
+      description: "JUTSA Management System enables efficient work management.",
+      link: "https://itday.jtech.so/",
+      image: "/jutsa-mn.png",
+      techStacks: ["React", "MongoDb", "Node.js", ""],
     },
+
     {
       title: "PeetesAutoSales",
       description:
@@ -68,16 +54,33 @@ const ProjectsScreen = () => {
       techStacks: ["React", "MongoDb", "Node.js", "supabase"],
     },
     {
+      title: "Aslos",
+      description:
+        "A ecommerce system that allows you to sell your products online.",
+      link: "https://aslos.so",
+      image: "/landing5.png",
+      techStacks: ["Next.js", "MongoDb", "Stripe", "TypeScript"],
+    },
+
+    {
+      title: "Hospital UNISO",
+      description:
+        "A website that allows you to book an appointment with a doctor.",
+      link: "https://www.somatlas.dev/",
+      image: "/uniso.png",
+      techStacks: ["React", "MongoDb", "Node.js", "supabase"],
+    },
+    {
       title: "Jamhuuriya (Jutsa)",
       description: "JUTSA Management System enables efficient work management.",
       link: "https://itday.jtech.so/",
-      image: "/jutsa-mn.png",
+      image: "/jutsa.png",
       techStacks: ["React", "MongoDb", "Node.js", ""],
     },
   ];
   return (
-    <main className="max-w-[1020px] mx-auto px-5 py-16">
-      <div className="flex flex-col space-y-2 py-5 ">
+    <main className="max-w-[1020px] mx-auto px-5 py-10">
+      <div className="flex flex-col space-y-2 pb-5">
         <div className="flex items-center text-center gap-1 text-gray-600">
           <AiFillProject className="text-xl" />
           <h1 className="font-bold text-sm">My Projects</h1>
