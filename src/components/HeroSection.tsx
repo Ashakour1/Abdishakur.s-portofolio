@@ -1,5 +1,7 @@
 import { MdBusinessCenter } from "react-icons/md";
 import AboutMe from "./about-me";
+import { DotPattern } from "./ui/dot-pattern";
+import { cn } from "@/lib/utils";
 const HeroSection = () => {
   return (
     <section>
