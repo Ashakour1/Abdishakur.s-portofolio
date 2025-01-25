@@ -5,7 +5,7 @@ import Projects from "../components/projects/ProjectsSection";
 
 const HomePage = () => {
   return (
-    <div className="max-w-[1020px] mx-auto px-5">
+    <div className=" max-w-[1020px] mx-auto px-5">
       <HeroSection />
       <div className="flex flex-col gap-4 md:flex-row md:gap-4">
         <Experiences />
