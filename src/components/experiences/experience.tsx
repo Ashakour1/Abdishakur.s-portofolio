@@ -10,10 +10,11 @@ import { type Experience } from "../../types/experiences-type";
 import { IoCalendarOutline, IoLogoJavascript, IoPrism } from "react-icons/io5";
 import { TbBrandSupabase, TbBrandTypescript } from "react-icons/tb";
 import { BiLogoMongodb, BiLogoPhp } from "react-icons/bi";
-import { RiNextjsFill, RiSvelteFill } from "react-icons/ri";
+import { RiFlutterFill, RiNextjsFill, RiSvelteFill } from "react-icons/ri";
 import { GrAnalytics } from "react-icons/gr";
 import { IoIosMore } from "react-icons/io";
 import { SiPostgresql } from "react-icons/si";
+import { DiDart, DiDjango } from "react-icons/di";
 
 type ExperienceProps = {
   experienceItem: Experience;
@@ -60,6 +61,12 @@ const Experience = ({ experienceItem }: ExperienceProps) => {
         return <FaJava className="w-5 h-5" />;
       case "Database":
         return <FaDatabase className="w-5 h-5" />;
+      case "Django":
+        return <DiDjango className="w-5 h-5" />;
+      case "Flutter":
+        return <RiFlutterFill className="w-5 h-5" />;
+      case "Dart":
+        return <DiDart className="w-5 h-5" />;
       default:
         return null;
     }
