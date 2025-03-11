@@ -1,26 +1,26 @@
 import { type Experience } from "../types/experiences-type";
 
 export const ExperienceData: Experience[] = [
-  {
-    position: "Software Developer",
-    name: "Heegan Technology",
-    logo: "/logo-heegan.jpg",
-    time: "Jan 2025 - present",
-    description:
-      "As a software developer at Heegan Technology, you'll design and develop high-quality software applications, collaborate with a skilled team, and stay updated with the latest industry trends. Your role involves writing efficient code, debugging issues, and delivering innovative solutions to maintain Heegan Technology's leadership in the tech industry.",
-    technologies: [
-      "Mysql",
-      "React",
-      "Prisma",
-      "Next.js",
-      "Python",
-      "Django",
-      "Flutter",
-      "Dart",
-      "More",
-    ],
-    images: [],
-  },
+  // {
+  //   position: "Software Developer",
+  //   name: "Heegan Technology",
+  //   logo: "/logo-heegan.jpg",
+  //   time: "Jan 2025 - present",
+  //   description:
+  //     "As a software developer at Heegan Technology, you'll design and develop high-quality software applications, collaborate with a skilled team, and stay updated with the latest industry trends. Your role involves writing efficient code, debugging issues, and delivering innovative solutions to maintain Heegan Technology's leadership in the tech industry.",
+  //   technologies: [
+  //     "Mysql",
+  //     "React",
+  //     "Prisma",
+  //     "Next.js",
+  //     "Python",
+  //     "Django",
+  //     "Flutter",
+  //     "Dart",
+  //     "More",
+  //   ],
+  //   images: [],
+  // },
   {
     position: "Software Developer",
     name: "Relia Trusty",
