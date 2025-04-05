@@ -1,18 +1,16 @@
+import { Toaster } from "react-hot-toast";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import HomePage from "./pages/HomeScreen";
 import NotFound from "./components/NotFound";
 import ContactScreen from "./pages/ContactScreen";
+import HomePage from "./pages/HomeScreen";
 import ProjectsScreen from "./pages/ProjectsScreen";
-import Footer from "./components/Footer";
-import { Toaster } from "react-hot-toast";
-import Annoucement from "./components/Annoucement";
 function App() {
   return (
     <>
-    <Toaster/>
+      <Toaster />
       <Router>
-        <Annoucement/>
         <Header />
         <Routes>
           <Route path="/" element={<HomePage />} />
