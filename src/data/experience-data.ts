@@ -22,7 +22,7 @@ export const ExperienceData: Experience[] = [
     images: [],
   },
   {
-    position: "CVO Software Developer",
+    position: "CVO & Software Developer",
     name: "Relia Trusty",
     logo: "/logo-relia-trusty.jpg",
     time: "Fep 2024 - July 2024",
@@ -41,7 +41,7 @@ export const ExperienceData: Experience[] = [
     technologies: ["React", "Node.js", "Next.js", "MongoDb", "Prisma", "More"],
     images: ["/jutsa.png", "/jutsa-mn.png"],
   },
-  
+
   {
     position: "Founder & Developer",
     name: "SomAtlasAPI",
