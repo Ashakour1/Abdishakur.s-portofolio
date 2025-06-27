@@ -2,8 +2,13 @@
 // import { ProjectsData } from "../../data/projects-data";
 import { AiFillProject } from "react-icons/ai";
 import { HoverEffect } from "../components/ui/card-hover-effect";
+import { useEffect } from "react";
 
 const ProjectsScreen = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to top when component mounts
+  }, []);
+
   const items = [
     {
       title: "Eventify",

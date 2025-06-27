@@ -1,8 +1,13 @@
 import { HiOutlineMail } from "react-icons/hi";
 
 import ContactForm from "../components/ContactForm";
+import { useEffect } from "react";
 
 const ContactScreen = () => {
+    useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to top when component mounts
+  }, []);
+
   return (
     <div className="max-w-[1020px] mx-auto px-5 py-10">
       <div className="flex flex-col space-y-2 pb-5 ">
