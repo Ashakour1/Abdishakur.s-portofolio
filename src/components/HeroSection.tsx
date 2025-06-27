@@ -7,7 +7,7 @@ const HeroSection = () => {
       <div className="py-5 pt-10 lg:flex-row md:gap-2 sm:gap-2 gap-4 flex flex-col md:flex-row justify-between border-b">
         <div className="">
           <AboutMe />
-          <div className="flex flex-col gap-2 ">
+          <div className="flex flex-col gap-2 py-1">
             <h1 className="max-w-2xl text-2xl lg:text-3xl md:text-3xl font-bold spacing-1">
               Hey! I’m{" "}
               <span className="border-blue-400 border-b-2">Abdishakour</span>{" "}
@@ -29,7 +29,7 @@ const HeroSection = () => {
               <span>
                 My studies and work keep me at the forefront of tech, fueling my
                 drive to innovate and excel. Let’s connect and collaborate to
-                build something extraordinary together! ✨ ---
+                build something extraordinary together! ✨
               </span>
             </p>
           </div>
@@ -43,7 +43,8 @@ const HeroSection = () => {
           />
           <button className="bg-gray-100 text-sm text-gray-600 md:px-4 px-10 py-2 rounded-md flex gap-1 ">
             <MdBusinessCenter className="text-xl" />
-            SWE @<span className="text-black font-bold">Relia Trusty</span>
+            SWE @
+            <span className="text-black font-bold">Salaam Somali Bank</span>
           </button>
         </div>
       </div>

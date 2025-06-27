@@ -1,10 +1,9 @@
-import { IoPerson } from "react-icons/io5";
 
 const AboutMe = () => {
   return (
-    <div className="flex items-center text-center mb-2 gap-1 text-gray-600">
-      <IoPerson className="text-xl" />
-      <p className=" font-bold text-sm">About Me</p>
+    <div className="inline-flex items-center gap-2 bg-blue-50 text-blue-700 px-3 py-[1px] rounded-full text-sm font-medium">
+      <div className="w-2 h-2 bg-blue-500 rounded-full animate-pulse"></div>
+      About Me
     </div>
   );
 };
