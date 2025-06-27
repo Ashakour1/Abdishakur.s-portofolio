@@ -5,9 +5,9 @@ export const ExperienceData: Experience[] = [
     position: "Software Engineer",
     name: "Salaam Somali Bank",
     logo: "/logo-salaam.jpeg",
-    time: "Jan 2025 - present",
+    time: "May 2025 - present",
     description:
-      "As a software developer at Salaam Somali Bank, you'll design and develop high-quality software applications, collaborate with a skilled team, and stay updated with the latest industry trends. Your role involves writing efficient code, debugging issues, and delivering innovative solutions to maintain Salaam Somali Bank's leadership in the tech industry.",
+      "As a software engineer at Salaam Somali Bank, you'll design and develop high-quality software applications, collaborate with a skilled team, and stay updated with the latest industry trends. Your role involves writing efficient code, debugging issues, and delivering innovative solutions to maintain Salaam Somali Bank's leadership in the tech industry.",
     technologies: [
       "Mysql",
       "React",
