@@ -7,7 +7,7 @@ export const ExperienceData: Experience[] = [
     logo: "/logo-salaam.jpeg",
     time: "May 2025 - present",
     description:
-      "As a software engineer at Salaam Somali Bank, you'll design and develop high-quality software applications, collaborate with a skilled team, and stay updated with the latest industry trends. Your role involves writing efficient code, debugging issues, and delivering innovative solutions to maintain Salaam Somali Bank's leadership in the tech industry.",
+      "As a software engineer  at Salaam Somali Bank, you'll design and develop high-quality software applications, collaborate with a skilled team, and stay updated with the latest industry trends. Your role involves writing efficient code, debugging issues, and delivering innovative solutions to maintain Salaam Somali Bank's leadership in the tech industry.",
     technologies: [
       "Mysql",
       "React",
@@ -21,11 +21,22 @@ export const ExperienceData: Experience[] = [
     ],
     images: [],
   },
+
+  {
+    position: "CVO & Software Developer",
+    name: "Relia Trusty",
+    logo: "/logo-relia-trusty.jpg",
+    time: "Fep 2024 - July 2024",
+    description:
+      "As a software developer at Relia Trusty, you'll design and develop high-quality software applications, collaborate with a skilled team, and stay updated with the latest industry trends. Your role involves writing efficient code, debugging issues, and delivering innovative solutions to maintain Relia Trusty's leadership in the tech industry.",
+    technologies: ["SAD", "Node.js", "React", "MongoDb", "Prisma", "More"],
+    images: ["/landing5.png", "/uniso.png"],
+  },
   {
     position: "Software Developer",
     name: "Heegan Technology",
     logo: "/logo-heegan.jpg",
-    time: "Jan 2025 - present",
+    time: "Jan 2025 - June 2025",
     description:
       "As a software developer at Heegan Technology, you'll design and develop high-quality software applications, collaborate with a skilled team, and stay updated with the latest industry trends. Your role involves writing efficient code, debugging issues, and delivering innovative solutions to maintain Heegan Technology's leadership in the tech industry.",
     technologies: [
@@ -40,16 +51,6 @@ export const ExperienceData: Experience[] = [
       "More",
     ],
     images: [],
-  },
-  {
-    position: "CVO & Software Developer",
-    name: "Relia Trusty",
-    logo: "/logo-relia-trusty.jpg",
-    time: "Fep 2024 - July 2024",
-    description:
-      "As a software developer at Relia Trusty, you'll design and develop high-quality software applications, collaborate with a skilled team, and stay updated with the latest industry trends. Your role involves writing efficient code, debugging issues, and delivering innovative solutions to maintain Relia Trusty's leadership in the tech industry.",
-    technologies: ["SAD", "Node.js", "React", "MongoDb", "Prisma", "More"],
-    images: ["/landing5.png", "/uniso.png"],
   },
   {
     position: "Chief Development Officer",

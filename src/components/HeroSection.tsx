@@ -1,4 +1,4 @@
-import { MdBusinessCenter } from "react-icons/md";
+import { MdLocationOn } from "react-icons/md";
 import AboutMe from "./about-me";
 
 const HeroSection = () => {
@@ -35,17 +35,40 @@ const HeroSection = () => {
           </div>
         </div>
 
-        <div className="flex md:flex-col items-center flex-col gap-2">
-          <img
-            className="md:w-64 w-full rounded"
-            src="/pro3.jpg"
-            alt="Abdishakour Mohamed"
-          />
-          <button className="bg-gray-100 text-sm text-gray-600 md:px-4 px-10 py-2 rounded-md flex gap-1 ">
-            <MdBusinessCenter className="text-xl" />
-            SWE @
-            <span className="text-black font-bold">Salaam Somali Bank</span>
-          </button>
+        <div className="flex md:flex-col items-center flex-col gap-3">
+          <div className="relative">
+            <img
+              className="md:w-72 w-full rounded-xl"
+              src="/pro3.jpg"
+              alt="Abdishakour Mohamed"
+            />
+
+            {/* Floating Status Badge */}
+            <div className="absolute -top-2 -right-2 bg-white rounded-full p-1 shadow-lg border border-gray-100">
+              <div className="bg-green-500 text-white rounded-full px-3 py-1 text-xs font-semibold flex items-center gap-1">
+                <div className="w-2 h-2 bg-white rounded-full animate-pulse"></div>
+                Available
+              </div>
+            </div>
+          </div>
+
+          {/* Sleek Work Info Strip */}
+          <div className="w-full max-w-sm space-y-2">
+            <div className="text-center">
+              <div className="inline-flex items-center gap-2 bg-gray-900 text-white px-4 py-2 rounded-full text-sm font-medium">
+                <span>Software Engineer</span>
+                <div className="w-1 h-1 bg-gray-400 rounded-full"></div>
+                <span className="text-blue-300">Salaam Somali Bank</span>
+              </div>
+            </div>
+
+            <div className="flex justify-center">
+              <div className="inline-flex items-center gap-1 text-gray-500 text-xs">
+                <MdLocationOn className="text-sm" />
+                <span>Somalia</span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
