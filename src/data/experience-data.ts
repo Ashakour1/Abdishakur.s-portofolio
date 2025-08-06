@@ -23,14 +23,21 @@ export const ExperienceData: Experience[] = [
   },
 
   {
-    position: "CVO & Software Developer",
+    position: "CVO & AI Engineer",
     name: "Relia Trusty",
     logo: "/logo-relia-trusty.jpg",
     time: "Fep 2024 - July 2024",
     description:
-      "As a software developer at Relia Trusty, you'll design and develop high-quality software applications, collaborate with a skilled team, and stay updated with the latest industry trends. Your role involves writing efficient code, debugging issues, and delivering innovative solutions to maintain Relia Trusty's leadership in the tech industry.",
-    technologies: ["SAD", "Node.js", "React", "MongoDb", "Prisma", "More"],
-    images: ["/landing5.png", "/uniso.png"],
+      "As a CVO & AI Engineer at Relia Trusty, you'll design and develop high-quality software applications, collaborate with a skilled team, and stay updated with the latest industry trends. Your role involves writing efficient code, debugging issues, and delivering innovative solutions to maintain Relia Trusty's leadership in the tech industry.",
+    technologies: [
+      "Machine learning",
+      "Deep learning",
+      "React",
+      "MongoDb",
+      "Prisma",
+      "More",
+    ],
+    images: [],
   },
   {
     position: "Software Developer",

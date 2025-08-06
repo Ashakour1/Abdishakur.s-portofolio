@@ -14,17 +14,18 @@ const HeroSection = () => {
               and I’m Software Developer
             </h1>
             <p className="max-w-2xl text-sm md:text-sm lg:text-base text-gray-700 flex flex-col gap-1">
-              <span className="">
+              <span>
                 Hey there! 👋 I'm Abdishakur Mohamed Hussein, a dynamic Software
-                Developer with 2.5 years of hands-on experience and a third-year
+                Developer with 3.5 years of hands-on experience and a third-year
                 Computer Science student at Jamhuuriyo University of Science &
                 Technology.
               </span>
               <span>
-                I’m passionate about innovation and creativity, always exploring
-                new ways to build exceptional web applications. I specialize in
-                both engaging front-end interfaces and robust back-end systems,
-                striving to create seamless and user-friendly solutions.
+                I’m passionate about innovation, creativity, and emerging
+                technologies, especially AI and Machine Learning. I specialize
+                in building exceptional web applications, with engaging
+                front-end interfaces and robust back-end systems, striving to
+                create seamless and user-friendly solutions.
               </span>
               <span>
                 My studies and work keep me at the forefront of tech, fueling my

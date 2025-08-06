@@ -2,10 +2,10 @@ import { type Project } from "../types/projects-type";
 
 export const ProjectsData: Project[] = [
   {
-    name: "Aslos",
+    name: "Justo bath & body care",
     description:
-      "Aslos is a brand dedicated to integrating fitness discipline and mindset into every aspect of life.",
-    logo: "/logo-2.png",
+      "justo bath & body care is a project I worked on that focuses on providing high-quality, natural bath and body products. The website showcases a range of products designed to nourish and pamper the skin, emphasizing the use of organic ingredients.",
+    logo: "/1.png",
     technologies: ["React", "Node", "MongoDB", "Express"],
     github: "",
     demo: "",

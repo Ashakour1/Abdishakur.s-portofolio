@@ -7,18 +7,27 @@ import { Link } from "react-router-dom";
 const Projects = () => {
   const items = [
     {
-      title: "Aslos",
+      title: "justo bath & body care",
       description:
-        "A ecommerce system that allows you to sell your products online.",
-      link: "https://aslos.so",
-      image: "/landing5.png",
+        "justo bath & body care is a project I worked on that focuses on providing high-quality, natural bath and body products.",
+      link: "https://www.justocosmetics.com/",
+      image: "/2.png",
       techStacks: ["Next.js", "MongoDb", "Stripe", "TypeScript"],
     },
     {
-      title: "Eventify",
-      description: "A platform for managing your events and tickets.",
-      link: "https://eventify-abdi.vercel.app/",
-      image: "/landing2.png",
+      title: "BarrowPay",
+      description:
+        "BarrowPay is a payment processing platform that simplifies online transactions.",
+      link: "https://barrowpay.com/",
+      image: "/barrow.png",
+      techStacks: ["React", "MongoDb", "Node.js", "supabase"],
+    },
+    {
+      title: "Startup AI",
+      description:
+        "Startup AI is a platform generates business ideas, Pitch Decks, market research, and more.",
+      link: "https://glowing-creponne-64b50b.netlify.app/",
+      image: "/startup.png",
       techStacks: ["Next.js", "MongoDb", "Stripe"],
     },
     {
@@ -30,27 +39,29 @@ const Projects = () => {
       techStacks: ["Svelte", "MongoDb", "Node.js", "supabase"],
     },
     {
-      title: "Jamhuuriya (Jutsa)",
-      description: "JUTSA Management System enables efficient work management.",
-      link: "https://itday.jtech.so/",
-      image: "/jutsa-mn.png",
-      techStacks: ["React", "MongoDb", "Node.js", ""],
+      title: "AutoWriter.ai",
+      description:
+        "AutoWriter.ai is an AI-powered content generation tool that helps users create high-quality documents, articles, and reports quickly and efficiently.",
+      link: "https://fluffy-hotteok-dd9781.netlify.app",
+      image: "/Auto.png",
+      techStacks: ["Svelte", "MongoDb", "Node.js", "supabase"],
+    },
+
+    {
+      title: "Scanner AI",
+      description:
+        "Scanner is an Somali AI-powered tool that detects and segments medical images, helping healthcare professionals analyze and diagnose conditions more accurately and efficiently.",
+      link: "",
+      image: "/scaner.png",
+      techStacks: ["Next.js", "PostgreSQL", "Python"],
     },
     {
-      title: "Asal Advert",
+      title: "Culinary AI",
       description:
-        "Asal Advertising Company is a marketing and advertising agency",
-      link: "https://eventify-abdi.vercel.app/",
-      image: "/asaladver.png",
+        "Culinary AI — Revolutionize your restaurant, blog, or kitchen with intelligent menu generation, personalized recipe suggestions, and dietary adaptations powered by advanced artificial intelligence.",
+      link: "https://effulgent-brigadeiros-b0f624.netlify.app/",
+      image: "/culinary.png",
       techStacks: ["Next.js", "MongoDb", "Stripe"],
-    },
-    {
-      title: "Donorix",
-      description:
-        "Donorix is a blood donation platform that connects donors with recipients.",
-      link: "https://www.somatlas.dev/",
-      image: "/donorix.png",
-      techStacks: ["React", "MongoDb", "Node.js", "supabase"],
     },
   ];
   return (
