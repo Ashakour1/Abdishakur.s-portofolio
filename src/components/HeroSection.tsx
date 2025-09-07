@@ -40,7 +40,7 @@ const HeroSection = () => {
           <div className="relative">
             <img
               className="md:w-72 w-full rounded-xl"
-              src="/pro3.jpg"
+              src="/image-hero.jpg"
               alt="Abdishakour Mohamed"
             />
 
@@ -56,10 +56,12 @@ const HeroSection = () => {
           {/* Sleek Work Info Strip */}
           <div className="w-full max-w-sm space-y-2">
             <div className="text-center">
-              <div className="inline-flex items-center gap-2 bg-gray-900 text-white px-4 py-2 rounded-full text-sm font-medium">
-                <span>Software Engineer</span>
-                <div className="w-1 h-1 bg-gray-400 rounded-full"></div>
-                <span className="text-blue-300">Salaam Somali Bank</span>
+              <div className="inline-flex items-center border-gray-500 border gap-2 text-white px-4 py-2 rounded-full text-sm font-medium">
+             
+             <img src="/logo-salaam.jpeg" className="w-5 h-5 rounded-full"  alt="Abdishakour Mohamed" />
+
+             <span className="text-black font-bold text-gray-500">Software Engineer</span>
+                
               </div>
             </div>
 
