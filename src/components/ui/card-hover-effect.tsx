@@ -11,6 +11,10 @@ import {
   FaReact,
 } from "react-icons/fa6";
 // import { FcNext } from "react-icons/fc";
+import { DiPostgresql } from "react-icons/di";
+import { SiRailway } from "react-icons/si";
+
+
 import { RiNextjsFill, RiSvelteFill } from "react-icons/ri";
 import { BiLogoMongodb } from "react-icons/bi";
 import { TbBrandSupabase, TbBrandTypescript } from "react-icons/tb";
@@ -140,6 +144,10 @@ const getIcon = (stack: string) => {
       return <FaJava className="w-7 h-7" />;
     case "Database":
       return <FaDatabase className="w-7 h-7" />;
+        case "PostgreSQL":
+      return <DiPostgresql className="w-7 h-7" />;
+        case "Railway":
+      return <SiRailway className="w-7 h-7" />;
     default:
       return null;
   }

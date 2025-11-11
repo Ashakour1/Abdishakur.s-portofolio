@@ -10,6 +10,22 @@ const ProjectsScreen = () => {
   }, []);
 
   const items = [
+   {
+      title: "Azm",
+      description:
+        "Azm helps you turn goals into tasks, track progress, organize projects, and collaborate with friends, achieve more, smarter and faster!",
+      link: "https://azmai.app/",
+      image: "/azm.png",
+      techStacks: ["React", "MongoDb", "Node.js", "supabase"],
+    },
+     {
+      title: "Scanner AI",
+      description:
+        "Scanner is an Somali AI-powered tool that detects and segments medical images, helping healthcare professionals analyze and diagnose conditions more accurately and efficiently.",
+      link: "",
+      image: "/scaner.png",
+      techStacks: ["Next.js", "PostgreSQL", "Python"],
+    },
     {
       title: "justo bath & body care",
       description:
@@ -18,12 +34,20 @@ const ProjectsScreen = () => {
       image: "/2.png",
       techStacks: ["Next.js", "MongoDb", "Stripe", "TypeScript"],
     },
-    {
-      title: "BarrowPay",
+     {
+      title: "Minister of Health Somalia",
       description:
-        "BarrowPay is a payment processing platform that simplifies online transactions.",
-      link: "https://barrowpay.com/",
-      image: "/barrow.png",
+        "justo bath & body care is a project I worked on that focuses on providing high-quality, natural bath and body products.",
+      link: "",
+      image: "/moh.png",
+      techStacks: ["Next.js", "PostgreSQL", "Railway", "TypeScript", "Python"],
+    },
+    {
+      title: "Hospital UNISO",
+      description:
+        "Hospital Uniso, a leading specialized private hospital in Mogadishu, Somalia.",
+      link: "https://www.somatlas.dev/",
+      image: "/hospital_uniso.png",
       techStacks: ["React", "MongoDb", "Node.js", "supabase"],
     },
     {
@@ -50,22 +74,22 @@ const ProjectsScreen = () => {
       image: "/Auto.png",
       techStacks: ["Svelte", "MongoDb", "Node.js", "supabase"],
     },
-    {
-      title: "Scanner AI",
-      description:
-        "Scanner is an Somali AI-powered tool that detects and segments medical images, helping healthcare professionals analyze and diagnose conditions more accurately and efficiently.",
-      link: "",
-      image: "/scaner.png",
-      techStacks: ["Next.js", "PostgreSQL", "Python"],
-    },
-    {
-      title: "Culinary AI",
-      description:
-        "Culinary AI — Revolutionize your restaurant, blog, or kitchen with intelligent menu generation, personalized recipe suggestions, and dietary adaptations powered by advanced artificial intelligence.",
-      link: "https://effulgent-brigadeiros-b0f624.netlify.app/",
-      image: "/culinary.png",
-      techStacks: ["Next.js", "MongoDb", "Stripe"],
-    },
+    // {
+    //   title: "Scanner AI",
+    //   description:
+    //     "Scanner is an Somali AI-powered tool that detects and segments medical images, helping healthcare professionals analyze and diagnose conditions more accurately and efficiently.",
+    //   link: "",
+    //   image: "/scaner.png",
+    //   techStacks: ["Next.js", "PostgreSQL", "Python"],
+    // },
+    // {
+    //   title: "Culinary AI",
+    //   description:
+    //     "Culinary AI — Revolutionize your restaurant, blog, or kitchen with intelligent menu generation, personalized recipe suggestions, and dietary adaptations powered by advanced artificial intelligence.",
+    //   link: "https://effulgent-brigadeiros-b0f624.netlify.app/",
+    //   image: "/culinary.png",
+    //   techStacks: ["Next.js", "MongoDb", "Stripe"],
+    // },
 
     {
       title: "PeetesAutoSales",
@@ -87,18 +111,18 @@ const ProjectsScreen = () => {
     {
       title: "Hospital UNISO",
       description:
-        "A website that allows you to book an appointment with a doctor.",
+        "Hospital Uniso, a leading specialized private hospital in Mogadishu, Somalia.",
       link: "https://www.somatlas.dev/",
-      image: "/uniso.png",
+      image: "/hospital_uniso.png",
       techStacks: ["React", "MongoDb", "Node.js", "supabase"],
     },
-    {
-      title: "Jamhuuriya (Jutsa)",
-      description: "JUTSA Management System enables efficient work management.",
-      link: "https://itday.jtech.so/",
-      image: "/jutsa.png",
-      techStacks: ["React", "MongoDb", "Node.js", ""],
-    },
+    // {
+    //   title: "Jamhuuriya (Jutsa)",
+    //   description: "JUTSA Management System enables efficient work management.",
+    //   link: "https://itday.jtech.so/",
+    //   image: "/jutsa.png",
+    //   techStacks: ["React", "MongoDb", "Node.js", ""],
+    // },
   ];
   return (
     <main className="max-w-[1020px] mx-auto px-5 py-10">

@@ -7,6 +7,22 @@ import { Link } from "react-router-dom";
 const Projects = () => {
   const items = [
     {
+      title: "Azm",
+      description:
+        "Azm helps you turn goals into tasks, track progress, organize projects, and collaborate with friends, achieve more, smarter and faster!",
+      link: "https://azmai.app/",
+      image: "/azm.png",
+      techStacks: ["React", "MongoDb", "Node.js", "supabase"],
+    },
+     {
+      title: "Scanner AI",
+      description:
+        "Scanner is an Somali AI-powered tool that detects and segments medical images, helping healthcare professionals analyze and diagnose conditions more accurately and efficiently.",
+      link: "",
+      image: "/scaner.png",
+      techStacks: ["Next.js", "PostgreSQL", "Python"],
+    },
+    {
       title: "justo bath & body care",
       description:
         "justo bath & body care is a project I worked on that focuses on providing high-quality, natural bath and body products.",
@@ -14,14 +30,15 @@ const Projects = () => {
       image: "/2.png",
       techStacks: ["Next.js", "MongoDb", "Stripe", "TypeScript"],
     },
-    {
-      title: "BarrowPay",
+     {
+      title: "Minister of Health Somalia",
       description:
-        "BarrowPay is a payment processing platform that simplifies online transactions.",
-      link: "https://barrowpay.com/",
-      image: "/barrow.png",
-      techStacks: ["React", "MongoDb", "Node.js", "supabase"],
+        "justo bath & body care is a project I worked on that focuses on providing high-quality, natural bath and body products.",
+      link: "",
+      image: "/moh.png",
+      techStacks: ["Next.js", "PostgreSQL", "Railway", "TypeScript", "Python"],
     },
+    
     {
       title: "Startup AI",
       description:
@@ -39,22 +56,15 @@ const Projects = () => {
       techStacks: ["Svelte", "MongoDb", "Node.js", "supabase"],
     },
     {
-      title: "AutoWriter.ai",
+      title: "Hospital Uniso",
       description:
-        "AutoWriter.ai is an AI-powered content generation tool that helps users create high-quality documents, articles, and reports quickly and efficiently.",
+        "Aut  oWriter.ai is an AI-powered content generation tool that helps users create high-quality documents, articles, and reports quickly and efficiently.",
       link: "https://fluffy-hotteok-dd9781.netlify.app",
-      image: "/Auto.png",
+      image: "/hospital_uniso.png",
       techStacks: ["Svelte", "MongoDb", "Node.js", "supabase"],
     },
 
-    {
-      title: "Scanner AI",
-      description:
-        "Scanner is an Somali AI-powered tool that detects and segments medical images, helping healthcare professionals analyze and diagnose conditions more accurately and efficiently.",
-      link: "",
-      image: "/scaner.png",
-      techStacks: ["Next.js", "PostgreSQL", "Python"],
-    },
+   
     {
       title: "Culinary AI",
       description:
