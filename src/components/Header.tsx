@@ -1,7 +1,6 @@
-import { BiEnvelope, BiSearch } from "react-icons/bi";
 import { FaGithub } from "react-icons/fa";
 // import { GiNightSleep } from "react-icons/gi";
-import { GoPerson } from "react-icons/go";
+
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -18,26 +17,23 @@ const Header = () => {
             />
           </Link>
         </div>
-        <nav className="border-[1px] border--gray-400 md:px-6 py-2  rounded-full">
+        <nav className="">
           <ul className="flex md:space-x-4 space-x-2">
-            <div className="  flex items-center text-center gap-1 px-2 py-1 rounded-md  hover:bg-gray-300 hover:-none">
-              <GoPerson className="text-black text-xs" />
-              <Link to="/" className=" text-black text-xs font-semibold">
-                About
+            <div className="  flex items-center text-center gap-1 px-2 py-1 rounded-md   hover:-none">
+              <Link to="/" className=" text-black text-sm font-semibold hover:text-blue-500">
+                About Me
               </Link>
             </div>
-            <div className="  flex items-center text-center gap-1 px-2 py-1 rounded-md  hover:bg-gray-300 hover:-none ">
-              <BiSearch className="text-black text-xs" />
+            <div className="  flex items-center text-center gap-1 px-2 py-1 rounded-md   hover:-none ">
               <Link
                 to="/projects"
-                className=" text-black text-xs font-semibold"
+                className=" text-black text-sm font-semibold hover:text-blue-500"
               >
                 Projects
               </Link>
             </div>
-            <div className=" flex items-center text-center gap-1 px-2 py-1 rounded-md hover:bg-gray-300 hover:border-none">
-              <BiEnvelope className="text-black text-xs" />
-              <Link to="/contact" className=" text-black text-xs font-semibold">
+            <div className=" flex items-center text-center gap-1 px-2 py-1 rounded-md  hover:border-none">
+              <Link to="/contact" className=" text-black text-sm font-semibold hover:text-blue-500">
                 Contact
               </Link>
             </div>

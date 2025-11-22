@@ -37,34 +37,24 @@ const HeroSection = () => {
         </div>
 
         <div className="flex md:flex-col items-center flex-col gap-3">
-          <div className="relative">
-            <img
-              className="md:w-72 w-full rounded-xl"
-              src="/image-hero.jpg"
-              alt="Abdishakour Mohamed"
-            />
-
-            {/* Floating Status Badge */}
-            <div className="absolute -top-2 -right-2 bg-white rounded-full p-1 shadow-lg border border-gray-100">
-              <div className="bg-green-500 text-white rounded-full px-3 py-1 text-xs font-semibold flex items-center gap-1">
-                <div className="w-2 h-2 bg-white rounded-full animate-pulse"></div>
-                Available
-              </div>
-            </div>
-          </div>
+           <div className="relative overflow-hidden rounded-2xl">
+                    <img
+                      className="md:w-72 w-full rounded-xl aspect-[4/5] object-cover"
+                      src="/image-hero.jpg"
+                      alt="Abdishakour Mohamed"
+                    />
+                    <div className="absolute bottom-4 left-4 rounded-full bg-white/90 px-4 py-2 text-xs font-semibold text-slate-800 shadow-lg inline-flex items-center gap-2">
+                      <img
+                        src="/logo-salaam.jpeg"
+                        className="w-6 h-6 rounded-full"
+                        alt="Salaam Financial Services"
+                      />
+                      Software Engineer @ SSB
+                    </div>
+                  </div>
 
           {/* Sleek Work Info Strip */}
           <div className="w-full max-w-sm space-y-2">
-            <div className="text-center">
-              <div className="inline-flex items-center border-gray-500 border gap-2 text-white px-4 py-2 rounded-full text-sm font-medium">
-             
-             <img src="/logo-salaam.jpeg" className="w-5 h-5 rounded-full"  alt="Abdishakour Mohamed" />
-
-             <span className="text-black font-bold text-gray-500">Software Engineer</span>
-                
-              </div>
-            </div>
-
             <div className="flex justify-center">
               <div className="inline-flex items-center gap-1 text-gray-500 text-xs">
                 <MdLocationOn className="text-sm" />
@@ -79,3 +69,36 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
+
+
+  // <div className="rounded-[28px] bg-gradient-to-br from-blue-600 via-blue-400 to-indigo-600 p-[2px] shadow-2xl">
+  //             <div className="rounded-[26px] bg-white">
+  //               <div className="p-4 md:p-5">
+  //                 <div className="relative overflow-hidden rounded-2xl">
+  //                   <img
+  //                     className="w-full aspect-[4/5] object-cover"
+  //                     src="/image-hero.jpg"
+  //                     alt="Abdishakour Mohamed"
+  //                   />
+  //                   <div className="absolute bottom-4 left-4 rounded-full bg-white/90 px-4 py-2 text-xs font-semibold text-slate-800 shadow-lg inline-flex items-center gap-2">
+  //                     <img
+  //                       src="/logo-salaam.jpeg"
+  //                       className="w-6 h-6 rounded-full"
+  //                       alt="Salaam Financial Services"
+  //                     />
+  //                     Software Engineer @ Salaam
+  //                   </div>
+  //                 </div>
+
+  //                 <div className="mt-5 flex items-center justify-between bg-slate-50 rounded-xl px-4 py-3">
+  //                   <div className="flex items-center gap-2 text-sm font-semibold text-slate-700">
+  //                     <MdLocationOn className="text-base text-blue-600" />
+  //                     Somalia
+  //                   </div>
+  //                   <div className="text-xs text-slate-500">
+  //                     Crafting resilient, scalable systems
+  //                   </div>
+  //                 </div>
+  //               </div>
+  //             </div>
+  //           </div>
