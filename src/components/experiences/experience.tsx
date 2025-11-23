@@ -2,49 +2,37 @@
 import { Link } from "react-router-dom";
 import { type Experience } from "../../types/experiences-type";
 
-
 type ExperienceProps = {
   experienceItem: Experience;
 };
 
 const Experience = ({ experienceItem }: ExperienceProps) => {
-  console.log(experienceItem.logo);
-
- 
   return (
-    <section>
-      <div  className="flex justify-between items-center  px-2 py-2">
-        <div className="flex">
-          <h1 className="text-gray-600 text-lg">
+    <section className="relative overflow-hidden">
+      {/* <div className="absolute left-0 top-0 h-full w-1 bg-gradient-to-b from-blue-500 via-cyan-400 to-indigo-500" /> */}
+
+      <div className="flex flex-row justify-between  py-4 sm:py-5 md:flex-row md:items-center md:justify-between">
+        <div className="space-y-1">
+          <p className="text-xs font-semibold uppercase tracking-[0.25em] text-slate-500">
             {experienceItem.time}
-          </h1>
+          </p>
+          <h2 className="text-lg font-semibold text-slate-800">{experienceItem.position}</h2>
         </div>
-        <div className="flex">
-         <h1 className="text-gray-600 font-semibold hover:underline  text-lg">
-            {experienceItem.position}
-          </h1>
-          <div>
-            <Link className="mx-2"    to="/"   target="_blank"> 
-                 <div  
-              className="inline-flex items-center gap-2 rounded-lg bg-[#007BB7]/10 px-3 py-1 text-[#007BB7] transition hover:bg-[#007BB7]/20"
-            >
+
+        <div className="flex flex-wrap items-center gap-2 md:justify-end">
+          <Link to="/" target="_blank" className="group">
+            <div className="inline-flex items-center gap-2 rounded-full border border-blue-100 bg-blue-50 px-3 py-2 text-[#0a66c2] transition group-hover:border-blue-200 group-hover:bg-blue-100">
               <img
                 src={experienceItem.logo}
                 alt={experienceItem.name}
-                width={24}
-                height={24}
-                className="rounded-full object-contain"
+                width={26}
+                height={26}
+                className="h-[26px] w-[26px] rounded-full object-contain"
               />
-             <p className="text-sm font-medium">
-                {experienceItem.name}
-              </p>
+              <p className="text-sm font-semibold">{experienceItem.name}</p>
             </div>
-            </Link>
-
-          </div>
-           
+          </Link>
         </div>
-        
       </div>
     </section>
   );
