@@ -1,4 +1,3 @@
-import { AiFillProject } from "react-icons/ai";
 // import Project from "./Project";
 // import { ProjectsData } from "../../data/projects-data";
 import { HoverEffect } from "../ui/card-hover-effect";
@@ -76,10 +75,7 @@ const Projects = () => {
   ];
   return (
     <div>
-      <div className="flex items-center text-center py-5 pt-10 gap-1 text-gray-600">
-        <AiFillProject className="text-xl" />
-        <h1 className="font-bold text-sm">Projects</h1>
-      </div>
+      <h1 className="py-5 pt-10 text-sm font-bold text-gray-700">Projects</h1>
       <HoverEffect items={items} className="gap-6" />
       <div className="flex items-center justify-center text-center py-10 gap-1 text-gray-600">
         <Link to="/projects" className="text-sm font-semibold">

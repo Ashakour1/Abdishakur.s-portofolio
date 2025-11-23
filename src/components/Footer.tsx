@@ -10,6 +10,10 @@ export const NavbarRoutes = [
     route: "/projects",
   },
   {
+    name: "Tools",
+    route: "/tools",
+  },
+  {
     name: "Contributions",
     route: "/contributions",
   },

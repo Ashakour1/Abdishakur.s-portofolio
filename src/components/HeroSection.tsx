@@ -4,8 +4,8 @@ import AboutMe from "./about-me";
 const HeroSection = () => {
   return (
     <section>
-      <div className="py-5 pt-10 lg:flex-row md:gap-2 sm:gap-2 gap-4 flex flex-col md:flex-row justify-between border-b">
-        <div className="">
+      <div className="lg:flex-row md:gap-2 sm:gap-2 gap-4 flex flex-col md:flex-row justify-between border-b">
+        <div className="space-y-2">
           <AboutMe />
           <div className="flex flex-col gap-2 py-1">
             <h1 className="max-w-2xl text-2xl lg:text-3xl md:text-3xl font-bold spacing-1">

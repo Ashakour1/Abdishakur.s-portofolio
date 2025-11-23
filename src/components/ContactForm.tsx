@@ -59,7 +59,7 @@ const ContactForm = () => {
     }
   };
   return (
-    <div>
+  
       <form className="space-y-7" onSubmit={sendEmail} ref={form}>
         <div className="flex flex-col space-y-2">
           <label
@@ -142,7 +142,7 @@ const ContactForm = () => {
           Send Message
         </button>
       </form>
-    </div>
+   
   );
 };
 

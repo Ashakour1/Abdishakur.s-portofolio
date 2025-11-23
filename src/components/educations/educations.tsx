@@ -1,14 +1,10 @@
-import { FaGraduationCap } from "react-icons/fa";
 import { EducationsData } from "../../data/educations-data";
 import Education from "./education";
 
 const Educations = () => {
   return (
     <section className="w-full  h-full">
-      <div className="flex items-center text-center py-5 pt-10 gap-1 text-gray-600 ">
-        <FaGraduationCap className="text-xl" />
-        <h1 className="font-bold text-sm">Education</h1>
-      </div>
+      <h1 className="py-5 pt-10 text-sm font-bold text-gray-700">Education</h1>
       <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-4">
         {EducationsData.map((item, index) => (
           <Education key={index} educationItem={item} />
