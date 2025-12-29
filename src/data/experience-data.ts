@@ -69,6 +69,16 @@ export const ExperienceData: Experience[] = [
     technologies: ["React", "Node.js", "Next.js", "MongoDb", "Prisma", "More"],
     images: ["/jutsa.png", "/jutsa-mn.png"],
   },
+  {
+    position: "IT Consultant",
+    name: "Hospital Uniso",
+    logo: "/logo-it-consultant.jpg",
+    time: "2024 - 2025",
+    description:
+      "As the IT Consultant, I provide technical support and guidance to businesses and organizations, helping them optimize their IT infrastructure and implement solutions to improve efficiency and productivity.",
+    technologies: ["React", "Node.js", "Next.js", "MongoDb", "Prisma", "More"],
+    images: [],
+  },
 
   // {
   //   position: "Founder & Developer",
