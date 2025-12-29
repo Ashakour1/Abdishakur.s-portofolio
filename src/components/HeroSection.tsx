@@ -37,7 +37,7 @@ const HeroSection = () => {
         </div>
 
         <div className="flex md:flex-col items-center flex-col gap-3">
-           <div className="relative overflow-hidden rounded-2xl">
+           {/* <div className="relative overflow-hidden rounded-2xl">
                     <img
                       className="md:w-72 w-full rounded-xl aspect-[4/5] object-cover"
                       src="/image-hero.jpg"
@@ -51,7 +51,7 @@ const HeroSection = () => {
                       />
                       Software Engineer @ SSB
                     </div>
-                  </div>
+                  </div> */}
 
           {/* Sleek Work Info Strip */}
           <div className="w-full max-w-sm space-y-2">
