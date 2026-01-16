@@ -43,14 +43,14 @@ const HeroSection = () => {
                       src="/image-hero.jpg"
                       alt="Abdishakour Mohamed"
                     />
-                    {/* <div className="absolute bottom-4 left-4 rounded-full bg-white/90 px-4 py-2 text-xs font-semibold text-slate-800 shadow-lg inline-flex items-center gap-2">
+                    <div className="absolute bottom-4 left-4 rounded-full bg-white/90 px-4 py-2 text-xs font-semibold text-slate-800 shadow-lg inline-flex items-center gap-2">
                       <img
                         src="/logo-salaam.jpeg"
                         className="w-6 h-6 rounded-full"
                         alt="Salaam Financial Services"
                       />
-                      Software Engineer @ SSB
-                    </div> */}
+                      Software Engineer @ SalaamGroup
+                    </div>
                   </div>
 
           {/* Sleek Work Info Strip */}
