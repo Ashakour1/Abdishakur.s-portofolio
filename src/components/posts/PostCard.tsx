@@ -9,7 +9,7 @@ const PostCard = ({ post }: PostCardProps) => {
   return (
     <Link to={post.link || `#`} className="block group">
       <div className="flex flex-col h-full">
-        <div className="relative overflow-hidden rounded-lg bg-gray-100 mb-4 aspect-video">
+        <div className="relative overflow-hidden  bg-gray-100 mb-4 aspect-video">
           <img
             src={post.thumbnail}
             alt={post.title}
