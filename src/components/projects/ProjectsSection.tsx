@@ -42,7 +42,7 @@ const Projects = () => {
       category: "AI Tool",
     },
     {
-      title: "Payment Gateway",
+      title: "Relia Pay",
       description:
         "A secure and robust payment gateway solution that enables seamless online transactions with support for multiple payment methods, real-time processing, and comprehensive transaction management.",
       link: "",
