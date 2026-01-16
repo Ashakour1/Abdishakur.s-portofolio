@@ -27,8 +27,10 @@ export const HoverEffect = ({
     title: string;
     description: string;
     link: string;
-    image: string;
+    image?: string;
     techStacks: string[]; // Added tech stacks property
+    date?: string;
+    category?: string;
   }[];
   className?: string;
 }) => {
@@ -43,8 +45,8 @@ export const HoverEffect = ({
     >
       {items.map((item, idx) => (
         <Link
-          to={item?.link}
-          key={item?.link}
+          to={item?.link || "#"}
+          key={idx}
           className="relative group block h-full w-full"
           onMouseEnter={() => setHoveredIndex(idx)}
           onMouseLeave={() => setHoveredIndex(null)}
@@ -66,7 +68,7 @@ export const HoverEffect = ({
               />
             )}
           </AnimatePresence>
-          <Card image={item.image} techStacks={item.techStacks}>
+          <Card techStacks={item.techStacks} date={item.date} category={item.category}>
             <CardTitle>{item.title}</CardTitle>
             <CardDescription>{item.description}</CardDescription>
             <div className="mt-4"></div>
@@ -79,42 +81,45 @@ export const HoverEffect = ({
 
 export const Card = ({
   children,
-  image,
   techStacks,
+  date,
+  category,
 }: {
   className?: string;
   children: React.ReactNode;
-  image: string;
   techStacks: string[]; // Accept techStacks prop
+  date?: string;
+  category?: string;
 }) => {
   return (
     <div
       className={cn(
-        "rounded-2xl h-full w-full p-4 overflow-hidden bg-white border   relative z-20"
+        "rounded-xl h-full w-full p-5 overflow-hidden bg-white border border-gray-200 relative z-20 shadow-sm"
       )}
     >
-      {/* Display the image */}
-      <div className="relative w-full border  h-48 overflow-hidden rounded-xl">
-        <img
-          src={image}
-          alt="Card image"
-          className="w-full h-full   object-cover group-hover:scale-105 transition-transform duration-300"
-        />
-      </div>
       <div className="relative z-50">
-        <div className="p-4">
-          {children}
-          <ul className="mt-10 flex flex-wrap gap-2">
-            {techStacks.map((stack, idx) => (
-              <li
-                key={idx}
-                className="text-3xl  text-black px-2 py-1 rounded-md"
-              >
-                {getIcon(stack)} {/* Call getIcon function */}
-              </li>
-            ))}
-          </ul>
+        {/* Header with date and category */}
+        <div className="flex items-center justify-between mb-4">
+          {date && (
+            <span className="text-xs text-gray-600">{date}</span>
+          )}
+          {category && (
+            <span className="text-xs px-3 py-1 border border-blue-300 text-blue-500 rounded-md font-medium">
+              {category}
+            </span>
+          )}
         </div>
+        {children}
+        <ul className="mt-6 flex flex-wrap gap-2">
+          {techStacks.map((stack, idx) => (
+            <li
+              key={idx}
+              className="text-2xl text-black"
+            >
+              {getIcon(stack)}
+            </li>
+          ))}
+        </ul>
       </div>
     </div>
   );
@@ -161,7 +166,7 @@ export const CardTitle = ({
   children: React.ReactNode;
 }) => {
   return (
-    <h4 className={cn("text-black font-bold tracking-wide mt-4", className)}>
+    <h4 className={cn("text-blue-600 font-semibold tracking-wide text-lg mb-3", className)}>
       {children}
     </h4>
   );
@@ -177,7 +182,7 @@ export const CardDescription = ({
   return (
     <p
       className={cn(
-        "mt-2 text-black tracking-wide leading-relaxed text-sm",
+        "text-gray-700 tracking-wide leading-relaxed text-sm",
         className
       )}
     >

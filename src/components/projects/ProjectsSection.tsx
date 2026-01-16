@@ -10,67 +10,54 @@ const Projects = () => {
       description:
         "Azm helps you turn goals into tasks, track progress, organize projects, and collaborate with friends, achieve more, smarter and faster!",
       link: "https://azmai.app/",
-      image: "/azm.png",
       techStacks: ["React", "MongoDb", "Node.js", "supabase"],
+      date: "15/01/2024",
+      category: "Web App",
     },
      {
       title: "Scanner AI",
       description:
         "Scanner is an Somali AI-powered tool that detects and segments medical images, helping healthcare professionals analyze and diagnose conditions more accurately and efficiently.",
       link: "",
-      image: "/scaner.png",
       techStacks: ["Next.js", "PostgreSQL", "Python"],
+      date: "20/03/2024",
+      category: "AI Tool",
     },
-    {
-      title: "justo bath & body care",
-      description:
-        "justo bath & body care is a project I worked on that focuses on providing high-quality, natural bath and body products.",
-      link: "https://www.justocosmetics.com/",
-      image: "/2.png",
-      techStacks: ["Next.js", "MongoDb", "Stripe", "TypeScript"],
-    },
-     {
-      title: "Minister of Health Somalia",
-      description:
-        "justo bath & body care is a project I worked on that focuses on providing high-quality, natural bath and body products.",
-      link: "",
-      image: "/moh.png",
-      techStacks: ["Next.js", "PostgreSQL", "Railway", "TypeScript", "Python"],
-    },
-    
     {
       title: "Startup AI",
       description:
         "Startup AI is a platform generates business ideas, Pitch Decks, market research, and more.",
       link: "https://glowing-creponne-64b50b.netlify.app/",
-      image: "/startup.png",
       techStacks: ["Next.js", "MongoDb", "Stripe"],
+      date: "10/05/2024",
+      category: "AI Platform",
     },
-    {
-      title: "SomAtlasAPI",
-      description:
-        "Streamlining App Development with Key Somali Regional Data.",
-      link: "https://www.somatlas.dev/",
-      image: "/landing3.png",
-      techStacks: ["Svelte", "MongoDb", "Node.js", "supabase"],
-    },
-    {
-      title: "Hospital Uniso",
-      description:
-        "Aut  oWriter.ai is an AI-powered content generation tool that helps users create high-quality documents, articles, and reports quickly and efficiently.",
-      link: "https://fluffy-hotteok-dd9781.netlify.app",
-      image: "/hospital_uniso.png",
-      techStacks: ["Svelte", "MongoDb", "Node.js", "supabase"],
-    },
-
-   
     {
       title: "Culinary AI",
       description:
         "Culinary AI — Revolutionize your restaurant, blog, or kitchen with intelligent menu generation, personalized recipe suggestions, and dietary adaptations powered by advanced artificial intelligence.",
       link: "https://effulgent-brigadeiros-b0f624.netlify.app/",
-      image: "/culinary.png",
       techStacks: ["Next.js", "MongoDb", "Stripe"],
+      date: "25/07/2024",
+      category: "AI Tool",
+    },
+    {
+      title: "Payment Gateway",
+      description:
+        "A secure and robust payment gateway solution that enables seamless online transactions with support for multiple payment methods, real-time processing, and comprehensive transaction management.",
+      link: "",
+      techStacks: ["Next.js", "Node.js", "Stripe", "TypeScript", "PostgreSQL"],
+      date: "05/12/2024",
+      category: "Payment System",
+    },
+    {
+      title: "Manzilini",
+      description:
+        "Manzilini is a comprehensive platform that provides innovative solutions and services to help users achieve their goals and streamline their operations.",
+      link: "https://manzilini.com",
+      techStacks: ["Next.js", "React", "Node.js", "TypeScript"],
+      date: "15/12/2024",
+      category: "Web App",
     },
   ];
   return (
