@@ -8,38 +8,55 @@ const Annoucement = () => {
 
           {/* Main content */}
           <div className="flex-1 flex flex-col md:flex-row items-center justify-between px-4 py-3">
-            {/* Simplified moon icon and text */}
+            {/* ML/AI icon and text */}
             <div className="flex items-center gap-3 mb-2 md:mb-0">
               <div className="relative w-8 h-8 flex-shrink-0">
                 <svg
                   viewBox="0 0 24 24"
                   fill="none"
-                  className="w-full h-full text-amber-500"
+                  className="w-full h-full text-blue-600"
                 >
                   <path
-                    d="M12 3C10.8065 4.19347 10.136 5.81217 10.136 7.5C10.136 11.0899 13.0461 14 16.636 14C18.3238 14 19.9425 13.3295 21.136 12.136C20.3318 16.6193 16.4554 20 11.818 20C6.75992 20 2.63636 15.8764 2.63636 10.8184C2.63636 6.18094 5.9996 2.30678 10.4763 1.5C9.28281 1.69628 8.15247 2.2072 7.18182 3C8.37529 3 9.54285 3.31607 10.5455 3.90909C10.5455 3.90909 11.5 4.5 12 3Z"
-                    fill="currentColor"
+                    d="M12 2L2 7L12 12L22 7L12 2Z"
                     stroke="currentColor"
-                    strokeWidth="0.5"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    fill="currentColor"
+                  />
+                  <path
+                    d="M2 17L12 22L22 17"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    fill="currentColor"
+                  />
+                  <path
+                    d="M2 12L12 17L22 12"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    fill="currentColor"
                   />
                 </svg>
               </div>
 
               <div className="flex flex-col">
-                <h3 className="font-arabic text-xl font-medium text-amber-600">
-                  رمضان مبارك
+                <h3 className="text-xl font-medium text-blue-600">
+                  New Articles
                 </h3>
-                <p className="text-sm text-blue-700">Ramadan Mubarak</p>
+                <p className="text-sm text-gray-600">Coming Soon</p>
               </div>
             </div>
 
             {/* Center line separator - only visible on desktop */}
-            <div className="hidden md:block h-10 w-px bg-amber-200 mx-4"></div>
+            <div className="hidden md:block h-10 w-px bg-blue-200 mx-4"></div>
 
             {/* Simple message */}
             <p className="text-sm text-center md:text-left text-gray-600 flex-1 max-w-md mb-2 md:mb-0">
-              Wishing you a blessed month of reflection, growth, and spiritual
-              connection.
+              Stay tuned! I'm adding articles documenting my journey as a Machine Learning Engineer.
             </p>
 
             {/* Close button */}
@@ -66,9 +83,9 @@ const Annoucement = () => {
                 style={{
                   backgroundColor:
                     i % 3 === 0
-                      ? "#10b981"
+                      ? "#3b82f6"
                       : i % 3 === 1
-                      ? "#f59e0b"
+                      ? "#8b5cf6"
                       : "transparent",
                 }}
               ></div>

@@ -40,6 +40,14 @@ const Header = () => {
                 Tools
               </Link>
             </div>
+            <div className="  flex items-center text-center gap-1 px-2 py-1 rounded-md   hover:-none ">
+              <Link
+                to="/tags"
+                className=" text-black text-sm font-semibold hover:text-blue-500"
+              >
+                Tags
+              </Link>
+            </div>
             <div className=" flex items-center text-center gap-1 px-2 py-1 rounded-md  hover:border-none">
               <Link to="/contact" className=" text-black text-sm font-semibold hover:text-blue-500">
                 Contact
