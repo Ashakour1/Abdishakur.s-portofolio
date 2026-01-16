@@ -12,7 +12,7 @@ const Projects = () => {
       link: "https://azmai.app/",
       techStacks: ["React", "MongoDb", "Node.js", "supabase"],
       date: "15/01/2024",
-      category: "Web App",
+      category: "AI Tool",
     },
      {
       title: "Scanner AI",
@@ -27,7 +27,7 @@ const Projects = () => {
       title: "Startup AI",
       description:
         "Startup AI is a platform generates business ideas, Pitch Decks, market research, and more.",
-      link: "https://glowing-creponne-64b50b.netlify.app/",
+      link: "",
       techStacks: ["Next.js", "MongoDb", "Stripe"],
       date: "10/05/2024",
       category: "AI Platform",
@@ -36,7 +36,7 @@ const Projects = () => {
       title: "Culinary AI",
       description:
         "Culinary AI — Revolutionize your restaurant, blog, or kitchen with intelligent menu generation, personalized recipe suggestions, and dietary adaptations powered by advanced artificial intelligence.",
-      link: "https://effulgent-brigadeiros-b0f624.netlify.app/",
+      link: "",
       techStacks: ["Next.js", "MongoDb", "Stripe"],
       date: "25/07/2024",
       category: "AI Tool",
