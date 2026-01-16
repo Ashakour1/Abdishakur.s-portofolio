@@ -45,6 +45,12 @@ const ToolsScreen = () => {
           description: "Noise-cancelling buds for focus time and calls anywhere.",
           image: "/apple.airpods",
         },
+        {
+          name: "Samsung S25",
+          category: "Phone",
+          description: "Android device for testing apps and mobile development.",
+          image: "",
+        },
       ],
     },
     {

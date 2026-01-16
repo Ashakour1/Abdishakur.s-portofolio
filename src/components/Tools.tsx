@@ -28,6 +28,12 @@ const Tools = () => {
       description: "Alerts, timers, and health snapshots to keep me on track.",
       image: "/apple.watch",
     },
+    {
+      name: "Samsung S25",
+      category: "Phone",
+      description: "Android device for testing apps and mobile development.",
+      image: "",
+    },
   ];
 
   const softwareTools = [
