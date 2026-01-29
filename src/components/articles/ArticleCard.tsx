@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom";
 import { Post } from "../../types/posts-type";
 
-type PostCardProps = {
+type ArticleCardProps = {
   post: Post;
 };
 
-const PostCard = ({ post }: PostCardProps) => {
+const ArticleCard = ({ post }: ArticleCardProps) => {
   return (
-    <Link to={post.link || `#`} className="block group">
+    <Link to={`/tag/article/${post.id}`} className="block group">
       <div className="flex flex-col h-full">
         <div className="relative overflow-hidden  bg-gray-100 mb-4 aspect-video">
           <img
@@ -46,4 +46,4 @@ const PostCard = ({ post }: PostCardProps) => {
   );
 };
 
-export default PostCard;
+export default ArticleCard;

@@ -42,6 +42,14 @@ const Header = () => {
             </div>
             <div className="  flex items-center text-center gap-1 px-2 py-1 rounded-md   hover:-none ">
               <Link
+                to="/articles"
+                className=" text-black text-sm font-semibold hover:text-blue-500"
+              >
+                Articles
+              </Link>
+            </div>
+            <div className="  flex items-center text-center gap-1 px-2 py-1 rounded-md   hover:-none ">
+              <Link
                 to="/tags"
                 className=" text-black text-sm font-semibold hover:text-blue-500"
               >

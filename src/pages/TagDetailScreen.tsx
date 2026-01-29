@@ -1,6 +1,6 @@
 import { useEffect, useMemo } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import PostCard from "../components/posts/PostCard";
+import ArticleCard from "../components/articles/ArticleCard";
 import { postsData } from "../data/posts-data";
 
 const TagDetailScreen = () => {
@@ -49,7 +49,7 @@ const TagDetailScreen = () => {
       {filteredPosts.length > 0 ? (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {filteredPosts.map((post) => (
-            <PostCard key={post.id} post={post} />
+            <ArticleCard key={post.id} post={post} />
           ))}
         </div>
       ) : (

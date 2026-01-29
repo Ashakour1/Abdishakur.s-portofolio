@@ -10,7 +10,7 @@ const TagsScreen = () => {
 
   const handleTagClick = (tag: string) => {
     const encodedTag = encodeURIComponent(tag);
-    navigate(`/tag/${encodedTag}`);
+    navigate(`/tags/tag/${encodedTag}`);
   };
 
   const tags = [
@@ -20,6 +20,7 @@ const TagsScreen = () => {
     "AI",
     "Machine Learning",
     "Blockchain",
+    "Personal Growth",
   ];
 
   return (

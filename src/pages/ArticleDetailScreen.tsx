@@ -3,7 +3,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import { postsData } from "../data/posts-data";
 import { Post } from "../types/posts-type";
 
-const PostDetailScreen = () => {
+const ArticleDetailScreen = () => {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
 
@@ -17,12 +17,12 @@ const PostDetailScreen = () => {
     return (
       <main className="max-w-[1020px] mx-auto px-5 py-10">
         <div className="text-center py-20">
-          <p className="text-gray-600 text-lg">Post not found.</p>
+          <p className="text-gray-600 text-lg">Article not found.</p>
           <button
-            onClick={() => navigate("/tags")}
+            onClick={() => navigate("/articles")}
             className="mt-4 text-blue-600 hover:text-blue-700"
           >
-            Back to Posts
+            Back to Articles
           </button>
         </div>
       </main>
@@ -81,14 +81,51 @@ const PostDetailScreen = () => {
             }}
           />
         </div>
-        <div className="max-w-none">
-          <p className="text-gray-700 leading-relaxed text-base whitespace-pre-line">
-            {post.content || post.description}
-          </p>
-        </div>
+        
+        {/* Sections */}
+        {post.sections && post.sections.length > 0 ? (
+          <div className="max-w-none space-y-8">
+            {post.sections.map((section, index) => (
+              <div key={index} className="space-y-4">
+                {/* Section Topic (Bold) */}
+                <h2 className="text-2xl font-bold text-gray-900">
+                  {section.topic}
+                </h2>
+                
+              
+                
+                {/* Section Content */}
+                <p className="text-gray-700 leading-relaxed text-lg whitespace-pre-line">
+                  {section.content}
+                </p>
+                  {/* Section Image (if provided) */}
+                  {section.image && (
+                  <div className="my-6">
+                    <img
+                      src={section.image}
+                      alt={section.topic}
+                      className="w-full rounded-lg"
+                      onError={(e) => {
+                        const target = e.target as HTMLImageElement;
+                        target.src = "/landing.png";
+                      }}
+                    />
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
+        ) : (
+          /* Fallback to old content format */
+          <div className="max-w-none">
+            <p className="text-gray-700 leading-relaxed text-base whitespace-pre-line">
+              {post.content || post.description}
+            </p>
+          </div>
+        )}
       </div>
     </main>
   );
 };
 
-export default PostDetailScreen;
+export default ArticleDetailScreen;
