@@ -4,7 +4,7 @@ import AboutMe from "./about-me";
 const HeroSection = () => {
   return (
     <section>
-      <div className="lg:flex-row md:gap-2 sm:gap-2 gap-4 flex flex-col md:flex-row justify-between border-b">
+      <div className="lg:flex-row md:gap-2 sm:gap-2 gap-4 flex flex-col md:flex-row justify-between border-b pb-4">
         <div className="space-y-2">
           <AboutMe />
           <div className="flex flex-col gap-2 py-1">
@@ -15,22 +15,25 @@ const HeroSection = () => {
             </h1>
             <p className="max-w-2xl text-sm md:text-sm lg:text-base text-gray-700 flex flex-col gap-1">
               <span>
-                Hey there! 👋 I'm Abdishakur Mohamed Hussein, a dynamic Software
-                Developer with 3.5 years of hands-on experience and a third-year
-                Computer Science student at Jamhuuriyo University of Science &
-                Technology.
+                Hey there! 👋 I&apos;m <strong>Abdishakur Mohamed Hussein</strong>, a
+                dynamic Software Developer with over{" "}
+                <strong>4 years of hands-on experience</strong>. I hold a
+                Bachelor&apos;s degree in Computer Science from Jamhuuriyo
+                University of Science & Technology and am currently pursuing a{" "}
+                <strong>Master&apos;s in Data Science & Artificial Intelligence</strong>.
               </span>
               <span>
-                I’m passionate about innovation, creativity, and emerging
-                technologies, especially AI and Machine Learning. I specialize
-                in building exceptional web applications, with engaging
-                front-end interfaces and robust back-end systems, striving to
-                create seamless and user-friendly solutions.
+                I&apos;m passionate about innovation, creativity, and emerging
+                technologies - especially AI and Machine Learning. I specialize
+                in building exceptional web applications with engaging
+                front-end interfaces and robust back-end systems, creating
+                seamless and user-friendly solutions.
               </span>
               <span>
-                My studies and work keep me at the forefront of tech, fueling my
-                drive to innovate and excel. Let’s connect and collaborate to
-                build something extraordinary together! ✨
+                My academic journey and professional experience keep me at the
+                forefront of technology, fueling my drive to innovate and excel.
+                Let&apos;s connect and collaborate to build something
+                extraordinary together! ✨
               </span>
             </p>
           </div>

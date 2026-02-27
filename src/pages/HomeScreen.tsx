@@ -1,11 +1,11 @@
 import { useEffect } from "react";
 
 import ContactSection from "../components/ContactSection";
-import Educations from "../components/educations/educations";
 import Experiences from "../components/experiences/experiences";
 import HeroSection from "../components/HeroSection";
 import Projects from "../components/projects/ProjectsSection";
 import Tools from "@/components/Tools";
+import ArticleComponent from "@/components/articles/ArticleComponent";
 
 const HomePage = () => {
   useEffect(() => {
@@ -20,7 +20,8 @@ const HomePage = () => {
         <Experiences />
      
       </div>
-         <Educations />
+         {/* <Educations /> */}
+         <ArticleComponent/>
          <Tools/>
      
       <Projects />

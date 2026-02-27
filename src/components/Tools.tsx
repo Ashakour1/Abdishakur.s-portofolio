@@ -66,11 +66,11 @@ return  (
      <section className="mt-6 space-y-5">
         <div className="flex flex-wrap items-center justify-between gap-3">
           <div className="space-y-1">
-            <p className="text-xs uppercase tracking-[0.25em] text-gray-500">Tools</p>
+            {/* <p className="text-xs uppercase tracking-[0.25em] text-gray-500">Tools</p> */}
             <h2 className="text-lg font-semibold text-gray-900">Daily toolkit</h2>
-            <p className="text-sm text-gray-600">
+            {/* <p className="text-sm text-gray-600">
               Essentials and software I reach for when building and shipping.
-            </p>
+            </p> */}
           </div>
           <Link
             to="/tools"
